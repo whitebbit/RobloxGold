@@ -55,7 +55,6 @@ namespace _3._Scripts.Pets
 
             GBGames.saves.petSaves.Unlock(rand.ID);
             GBGames.instance.Save();
-            WalletManager.SecondCurrency -= Price();
             UpdatePrice();
         }
 

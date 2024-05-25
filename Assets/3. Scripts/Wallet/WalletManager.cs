@@ -1,6 +1,7 @@
 ﻿using System;
 using _3._Scripts.Currency.Enums;
 using GBGamesPlugin;
+using UnityEngine;
 
 namespace _3._Scripts.Wallet
 {
@@ -13,8 +14,8 @@ namespace _3._Scripts.Wallet
             get => GBGames.saves.walletSave.firstCurrency;
             set
             {
-                OnFirstCurrencyChange?.Invoke((int) FirstCurrency, (int) value);
                 GBGames.saves.walletSave.firstCurrency = value;
+                OnFirstCurrencyChange?.Invoke((int) FirstCurrency, (int) value);
             }
         }
 
@@ -25,8 +26,8 @@ namespace _3._Scripts.Wallet
             get => GBGames.saves.walletSave.secondCurrency;
             set
             {
-                OnSecondCurrencyChange?.Invoke((int) SecondCurrency, (int) value);
                 GBGames.saves.walletSave.secondCurrency = value;
+                OnSecondCurrencyChange?.Invoke((int) SecondCurrency, (int) value);
             }
         }
 
@@ -38,8 +39,8 @@ namespace _3._Scripts.Wallet
             get => GBGames.saves.walletSave.thirdCurrency;
             set
             {
-                OnThirdCurrencyChange?.Invoke((int) ThirdCurrency, (int) value);
                 GBGames.saves.walletSave.thirdCurrency = value;
+                OnThirdCurrencyChange?.Invoke((int) ThirdCurrency, (int) value);
             }
         }
 

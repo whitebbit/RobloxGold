@@ -67,8 +67,8 @@ namespace _3._Scripts.Player
             var moveDirection = Quaternion.Euler(0, targetAngle, 0) * Vector3.forward;
 
             transform.rotation = Quaternion.Euler(0, angle, 0);
-            var boost = BoostersHandler.Instance.SpeedBoosted ? SpeedMultiplier : 1;
-            _characterController.Move(moveDirection * speed * boost * Time.deltaTime);
+            //var boost = BoostersHandler.Instance.SpeedBoosted ? SpeedMultiplier : 1;
+            _characterController.Move(moveDirection * speed * SpeedMultiplier * Time.deltaTime);
             PlayFootstepSound();
         }
 

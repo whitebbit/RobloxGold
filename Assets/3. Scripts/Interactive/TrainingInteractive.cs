@@ -36,11 +36,11 @@ namespace _3._Scripts.Interactive
 
         private float GetIncome()
         {
-            var pets = Configuration.Instance.AllPets.Where(p => GBGames.saves.petSaves.IsCurrent(p.ID)).ToList();
+            //var pets = Configuration.Instance.AllPets.Where(p => GBGames.saves.petSaves.IsCurrent(p.ID)).ToList();
             var character =
                 Configuration.Instance.AllCharacters.FirstOrDefault(c => GBGames.saves.characterSaves.IsCurrent(c.ID));
             var booster = BoostersHandler.Instance.X2Income ? 2 : 1;
-            return (pets.Sum(pet => pet.Booster) + character.Booster) * booster;
+            return (/*pets.Sum(pet => pet.Booster) */+ character.Booster) * booster;
         }
     }
 }

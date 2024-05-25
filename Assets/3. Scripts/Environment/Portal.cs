@@ -12,16 +12,16 @@ namespace _3._Scripts.Environment
     public class Portal : MonoBehaviour
     {
         [SerializeField] private PortalType type;
-        [SerializeField] private int price;
 
         [Tab("Buttons")] [SerializeField] private ObjectButton coinsBuy;
         [SerializeField] private ObjectButton adBuy;
         [Tab("Texts")] [SerializeField] private TMP_Text priceText;
 
+        private static int Price => (int)Math.Round(WalletManager.ThirdCurrency * 0.25f, MidpointRounding.AwayFromZero);
 
         private void Start()
         {
-            priceText.text = WalletManager.ConvertToWallet(price);
+            priceText.text = WalletManager.ConvertToWallet(Price);
 
             coinsBuy.OnClick += Buy;
             adBuy.OnClick += Ad;
@@ -35,7 +35,7 @@ namespace _3._Scripts.Environment
 
         private void Buy()
         {
-            if (!WalletManager.TrySpend(CurrencyType.Third, price)) return;
+            if (!WalletManager.TrySpend(CurrencyType.Third, Price)) return;
 
             Teleport();
         }
@@ -43,6 +43,14 @@ namespace _3._Scripts.Environment
         private void Ad()
         {
             GBGames.ShowRewarded(Teleport);
+        }
+
+        private void OnEnable()
+        {
+            WalletManager.OnThirdCurrencyChange += (_, _) =>
+            {
+                priceText.text = WalletManager.ConvertToWallet(Price);
+            };
         }
     }
 }
