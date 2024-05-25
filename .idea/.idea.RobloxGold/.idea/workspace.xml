@@ -1,58 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9715e77-c2c6-406d-832c-48bf516b4ade" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/HealthBar.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/HealthBar.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/UI/CurrencyEffect.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/UI/CurrencyEffect.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Environment/Portal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Environment/Portal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Environment/Stage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Environment/Stage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Interactive/TrainingInteractive.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Interactive/TrainingInteractive.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Pets/PetUnlocker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Pets/PetUnlocker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Wallet/WalletManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Wallet/WalletManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/5. Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/5. Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_5.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_6.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/CatMushroom/CatMushroom_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/CatMushroom/CatMushroom_1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/CatMushroom/CatMushroom_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/CatMushroom/CatMushroom_2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/CatMushroom/CatMushroom_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/CatMushroom/CatMushroom_3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle 2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle 3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle 3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle 4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle 4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle 5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle 5.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/MadNun/MadNun 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/MadNun/MadNun 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/MadNun/MadNun 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/MadNun/MadNun 2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/MadNun/MadNun.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/MadNun/MadNun.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant 2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant 3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant 3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant 4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant 4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant 5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant 5.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7.Imported Assets/CartoonTown-LowPolyAssets/Materials/Colors 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7.Imported Assets/CartoonTown-LowPolyAssets/Materials/Colors 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7.Imported Assets/Dungeon Cute Series/Prefabs/Chests Valuables/Chest 01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7.Imported Assets/Dungeon Cute Series/Prefabs/Chests Valuables/Chest 01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7.Imported Assets/Dungeon Cute Series/Prefabs/Chests Valuables/Chest 02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7.Imported Assets/Dungeon Cute Series/Prefabs/Chests Valuables/Chest 02.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7.Imported Assets/Dungeon Cute Series/Prefabs/Chests Valuables/Chest 03.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7.Imported Assets/Dungeon Cute Series/Prefabs/Chests Valuables/Chest 03.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7.Imported Assets/Dungeon Cute Series/Prefabs/Chests Valuables/Chest 04.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7.Imported Assets/Dungeon Cute Series/Prefabs/Chests Valuables/Chest 04.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7.Imported Assets/Dungeon Cute Series/Prefabs/Chests Valuables/Chest 05.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7.Imported Assets/Dungeon Cute Series/Prefabs/Chests Valuables/Chest 05.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7.Imported Assets/Dungeon Cute Series/Prefabs/Chests Valuables/Chest 05A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7.Imported Assets/Dungeon Cute Series/Prefabs/Chests Valuables/Chest 05A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7.Imported Assets/Dungeon Cute Series/Prefabs/Chests Valuables/Chest 06.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7.Imported Assets/Dungeon Cute Series/Prefabs/Chests Valuables/Chest 06.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7.Imported Assets/Dungeon Cute Series/Prefabs/Chests Valuables/Chest 06A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7.Imported Assets/Dungeon Cute Series/Prefabs/Chests Valuables/Chest 06A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7.Imported Assets/Dungeon Cute Series/Prefabs/Chests Valuables/Coin Pile 01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7.Imported Assets/Dungeon Cute Series/Prefabs/Chests Valuables/Coin Pile 01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7.Imported Assets/Dungeon Cute Series/Prefabs/Chests Valuables/Key 01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7.Imported Assets/Dungeon Cute Series/Prefabs/Chests Valuables/Key 01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/Scripts/Storage/SavesGB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/Scripts/Storage/SavesGB.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Y. Imported Assets/vFolders/vFolders Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Y. Imported Assets/vFolders/vFolders Data.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-    </list>
+    <list default="true" id="d9715e77-c2c6-406d-832c-48bf516b4ade" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,7 +103,7 @@
       <workItem from="1716470954378" duration="8895000" />
       <workItem from="1716536084349" duration="5846000" />
       <workItem from="1716558073526" duration="6810000" />
-      <workItem from="1716622075698" duration="8480000" />
+      <workItem from="1716622075698" duration="9083000" />
     </task>
     <servers />
   </component>
