@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using _3._Scripts.Config;
 using _3._Scripts.Interactive;
 using TMPro;
 using UnityEngine;
@@ -23,7 +24,7 @@ namespace _3._Scripts.Environment
             _goldInteractive = GetComponentsInChildren<GoldInteractive>().ToList();
             foreach (var item in _goldInteractive)
             {
-                item.Multiplier = multiplier;
+                item.Multiplier = multiplier + RemoteConfiguration.StageAdditionalMultiplier;
             }
         }
 

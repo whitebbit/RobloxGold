@@ -12,7 +12,6 @@ namespace _3._Scripts
         [SerializeField] private Image slider;
         private CanvasGroup _canvasGroup;
         private bool _state;
-
         private void Awake()
         {
             _canvasGroup = GetComponent<CanvasGroup>();
@@ -27,7 +26,7 @@ namespace _3._Scripts
         public void UpdateHealthBar(float max, float current)
         {
             var value = current / max;
-            counter.DOCounter(int.Parse(counter.text), (int) current, 0.1f);
+            counter.text = ((int)current).ToString();
             slider.DOFillAmount(value, 0.1f);
         }
 

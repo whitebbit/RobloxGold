@@ -29,7 +29,7 @@ namespace _3._Scripts.Environment
 
         private void Teleport()
         {
-            var stageId = type is PortalType.LastStage ? GBGames.saves.stageID : 0;
+            var stageId = type is PortalType.LastStage ? GBGames.saves.stageID + 1 : 0;
             Player.Player.Instance.Teleport(StageController.Instance.GetSpawnPoint(stageId));
         }
 

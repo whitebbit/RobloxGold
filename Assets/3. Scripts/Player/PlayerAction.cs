@@ -8,6 +8,7 @@ using _3._Scripts.Inputs.Interfaces;
 using _3._Scripts.Interactive.Interfaces;
 using _3._Scripts.Sounds;
 using _3._Scripts.UI;
+using _3._Scripts.UI.Scriptable.Shop;
 using GBGamesPlugin;
 using UnityEngine;
 using VInspector;
@@ -18,10 +19,8 @@ namespace _3._Scripts.Player
     {
         [SerializeField] private float baseCooldownTime;
         [SerializeField] private AnimationClip actionAnimation;
-        [Tab("Detectors")] [SerializeField]
-        private BaseDetector<IInteractive> detector;
-        
-        
+        [Tab("Detectors")] [SerializeField] private BaseDetector<IInteractive> detector;
+
 
         private IInput _input;
         private bool _isOnCooldown;
@@ -29,6 +28,7 @@ namespace _3._Scripts.Player
         private PlayerAnimator _animator;
 
         private IInteractive _interactive;
+
         private void Awake()
         {
             _animator = GetComponent<PlayerAnimator>();
@@ -62,12 +62,12 @@ namespace _3._Scripts.Player
             SoundManager.Instance.PlayOneShot("action");
             _interactive?.Interact();
         }
-        
+
         private void TryGetInteractive(IInteractive interactive)
         {
             _interactive = interactive;
         }
-        
+
         private void Cooldown()
         {
             if (!_isOnCooldown) return;
@@ -83,9 +83,9 @@ namespace _3._Scripts.Player
 
         private float GetCooldown()
         {
-            var booster =
-                Configuration.Instance.AllUpgrades.FirstOrDefault(u => GBGames.saves.upgradeSaves.IsCurrent(u.ID))
-                    .Booster;
+            var first = Configuration.Instance.AllUpgrades.FirstOrDefault(u => GBGames.saves.upgradeSaves.IsCurrent(u.ID));
+
+            var booster = first == null ? 1 : first.Booster;
             return Mathf.Clamp(baseCooldownTime * booster, 0.25f, 10);
         }
     }

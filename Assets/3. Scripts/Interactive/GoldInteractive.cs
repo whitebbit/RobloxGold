@@ -20,7 +20,7 @@ namespace _3._Scripts.Interactive
         [SerializeField] private CurrencyCounterEffect effect;
         private float _currentGoldAmount;
         public float Multiplier { get; set; }
-        public float GoldAmount => (int) Math.Ceiling(goldAmount * Multiplier);
+        public int GoldAmount => (int) Math.Ceiling(goldAmount * Multiplier);
 
         private float _damageTimer;
 
@@ -88,7 +88,7 @@ namespace _3._Scripts.Interactive
             var scale = transform.localScale;
             transform.DOScale(Vector3.zero, 0.25f).OnComplete(() =>
             {
-                transform.DOScale(scale, 0.25f).SetDelay(RemoteConfig.GoldRespawn).SetEase(Ease.OutBack)
+                transform.DOScale(scale, 0.25f).SetDelay(RemoteConfiguration.GoldRespawn).SetEase(Ease.OutBack)
                     .OnComplete(SetAmount);
             }).SetEase(Ease.InBack);
         }
@@ -109,8 +109,8 @@ namespace _3._Scripts.Interactive
         {
             var x2 = BoostersHandler.Instance.X2Currency ? 2 : 1;
             var pets = Configuration.Instance.AllPets.Where(p => GBGames.saves.petSaves.IsCurrent(p.ID)).ToList();
-            var strength = WalletManager.FirstCurrency + pets.Sum(p => p.Booster);
-            var result = (int) (goldAmount / (goldAmount / strength)) * x2;
+            var strength = (int) Math.Ceiling(WalletManager.FirstCurrency + pets.Sum(p => p.Booster));
+            var result = (int) Math.Ceiling((goldAmount / (goldAmount / strength)) * x2);
             return (int) Mathf.Clamp(result, 0, _currentGoldAmount);
         }
     }

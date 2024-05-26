@@ -23,6 +23,6 @@ namespace _3._Scripts.UI.Scriptable.Shop
         public Rarity Rarity => rarity;
 
         public CurrencyType CurrencyType => currencyType;
-        public int Price => (int) Math.Ceiling(price * RemoteConfig.ShopPriceMultiplier);
+        public int Price => (int) Math.Ceiling(price * RemoteConfiguration.ShopPriceMultiplier);
     }
 }

@@ -40,8 +40,7 @@ namespace _3._Scripts.Player
             InitializeTrail();
             InitializePets();
             SetUpgrade();
-            var stage = GBGames.saves.stageID < 0 ? 0 : GBGames.saves.stageID;
-            Teleport(StageController.Instance.GetSpawnPoint(stage));
+            Teleport(StageController.Instance.GetSpawnPoint(GBGames.saves.stageID + 1));
         }
 
 

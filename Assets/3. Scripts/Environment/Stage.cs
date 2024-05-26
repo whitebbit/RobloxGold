@@ -21,7 +21,7 @@ namespace _3._Scripts.Environment
         [SerializeField] private float doorRotation;
 
 
-        public int UnlockPrice => (int) Math.Ceiling(unlockPrice * RemoteConfig.StagePriceMultiplier);
+        public int UnlockPrice => (int) Math.Ceiling(unlockPrice * RemoteConfiguration.StagePriceMultiplier);
 
         public int ID => id;
         public Transform SpawnPoint => spawnPoint;
