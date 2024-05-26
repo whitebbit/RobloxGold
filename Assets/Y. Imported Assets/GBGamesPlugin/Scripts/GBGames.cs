@@ -1,5 +1,4 @@
 ﻿#if UNITY_WEBGL
-using System;
 using System.Collections;
 using InstantGamesBridge;
 using UnityEngine;
@@ -11,7 +10,7 @@ namespace GBGamesPlugin
     {
         public static GBGames instance { get; private set; }
         public GBGamesSettings settings;
-
+        
         private void Awake()
         {
             StartCoroutine(Initialize());
@@ -22,12 +21,13 @@ namespace GBGamesPlugin
             Singleton();
             yield return new WaitUntil(() => Bridge.instance != null && Bridge.initialized);
             Storage();
+            RemoteConfig();
             Advertisement();
             Platform();
             Player();
             Game();
         }
-
+        
         private void Singleton()
         {
             transform.SetParent(null);
@@ -81,8 +81,6 @@ namespace GBGamesPlugin
             Load();
             if (instance.settings.autoSaveByInterval)
                 StartCoroutine(IntervalSave());
-            
-            _lastCloudSaveTime = DateTime.Now.AddMinutes(-instance.settings.cloudSaveInterval);
         }
 
         private void Game()
@@ -90,6 +88,11 @@ namespace GBGamesPlugin
             Bridge.game.visibilityStateChanged += OnGameVisibilityStateChanged;
             if (instance.settings.saveOnChangeVisibilityState)
                 GameHiddenStateCallback += Save;
+        }
+
+        private void RemoteConfig()
+        {
+            LoadRemoteConfig();
         }
     }
 }

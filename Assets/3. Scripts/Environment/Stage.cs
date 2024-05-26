@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using _3._Scripts.Config;
 using _3._Scripts.Currency.Enums;
 using _3._Scripts.Wallet;
 using DG.Tweening;
@@ -20,7 +21,7 @@ namespace _3._Scripts.Environment
         [SerializeField] private float doorRotation;
 
 
-        public int UnlockPrice => unlockPrice;
+        public int UnlockPrice => (int) Math.Ceiling(unlockPrice * RemoteConfig.StagePriceMultiplier);
 
         public int ID => id;
         public Transform SpawnPoint => spawnPoint;

@@ -21,6 +21,7 @@
           </e>
           <e p="Config" t="Include">
             <e p="Configuration.cs" t="Include" />
+            <e p="RemoteConfig.cs" t="Include" />
             <e p="Tester.cs" t="Include" />
           </e>
           <e p="Currency" t="Include">
@@ -399,6 +400,11 @@
             </e>
           </e>
         </e>
+        <e p="Templates" t="Include">
+          <e p="ScreenshotMaker" t="Include">
+            <e p="ScreenshotMaker.cs" t="Include" />
+          </e>
+        </e>
         <e p="Y. Imported Assets" t="Include">
           <e p="CrazyOptimizer" t="Include">
             <e p="Editor" t="Include">
@@ -556,6 +562,9 @@
               </e>
               <e p="Player" t="Include">
                 <e p="PlayerGB.cs" t="Include" />
+              </e>
+              <e p="RemoteConfig" t="Include">
+                <e p="RemoteConfigGB.cs" t="Include" />
               </e>
               <e p="Settings" t="Include">
                 <e p="Editor" t="Include">

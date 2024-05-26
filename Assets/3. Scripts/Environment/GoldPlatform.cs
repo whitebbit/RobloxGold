@@ -29,7 +29,7 @@ namespace _3._Scripts.Environment
 
         private void Start()
         {
-            var req = _goldInteractive.Sum(g => g.GoldAmount * multiplier) / _goldInteractive.Count * 0.5f;
+            var req = _goldInteractive.Sum(g => g.GoldAmount) / _goldInteractive.Count * 0.5f;
             var stringReference = recommendation.StringReference;
             if (stringReference["amount"] is IntVariable variables) variables.Value = (int) req;
             recommendation.RefreshString();

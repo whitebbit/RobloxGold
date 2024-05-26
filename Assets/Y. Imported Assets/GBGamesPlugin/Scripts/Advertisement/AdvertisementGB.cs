@@ -78,8 +78,6 @@ namespace GBGamesPlugin
         /// </summary>
         public static InterstitialState interstitialState => Bridge.advertisement.interstitialState;
 
-        private static bool _isFirstInterstitial = true;
-
         /// <summary>
         /// Минимальный интервал между показами межстраничной рекламы.
         /// </summary>
@@ -104,6 +102,7 @@ namespace GBGamesPlugin
         public static event Action InterstitialOpenedCallback;
         public static event Action InterstitialClosedCallback;
         public static event Action InterstitialFailedCallback;
+        private static bool _isFirstInterstitial = true;
 
         private void OnInterstitialStateChanged(InterstitialState state)
         {
@@ -188,8 +187,7 @@ namespace GBGamesPlugin
                     RewardedCallback = null;
                     break;
                 case RewardedState.Closed:
-                    if (_isFirstInterstitial)
-                        PauseController.Pause(false);
+                    PauseController.Pause(false);
                     RewardedClosedCallback?.Invoke();
                     Message("Rewarded state - closed");
                     break;

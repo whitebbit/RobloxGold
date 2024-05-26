@@ -20,9 +20,10 @@ namespace _3._Scripts.Interactive
         [SerializeField] private CurrencyCounterEffect effect;
         private float _currentGoldAmount;
         public float Multiplier { get; set; }
-        public float GoldAmount => goldAmount;
+        public float GoldAmount => (int) Math.Ceiling(goldAmount * Multiplier);
 
         private float _damageTimer;
+
         private void Start()
         {
             SetAmount();
@@ -35,8 +36,8 @@ namespace _3._Scripts.Interactive
 
         private void SetAmount()
         {
-             _currentGoldAmount = goldAmount * Multiplier;
-             healthBar.UpdateHealthBar(goldAmount * Multiplier, _currentGoldAmount);
+            _currentGoldAmount = GoldAmount;
+            healthBar.UpdateHealthBar(GoldAmount, _currentGoldAmount);
         }
 
         private void Update()
@@ -51,7 +52,7 @@ namespace _3._Scripts.Interactive
             var damage = GetDamage();
             if (damage <= 0) return;
 
-            
+
             CreateEffect(damage);
             UpdateWallet(damage);
             DoShake();
@@ -71,7 +72,7 @@ namespace _3._Scripts.Interactive
                     break;
             }
         }
-        
+
         private void UpdateWallet(int damage)
         {
             WalletManager.ThirdCurrency += damage;
@@ -87,7 +88,7 @@ namespace _3._Scripts.Interactive
             var scale = transform.localScale;
             transform.DOScale(Vector3.zero, 0.25f).OnComplete(() =>
             {
-                transform.DOScale(scale, 0.25f).SetDelay(10).SetEase(Ease.OutBack)
+                transform.DOScale(scale, 0.25f).SetDelay(RemoteConfig.GoldRespawn).SetEase(Ease.OutBack)
                     .OnComplete(SetAmount);
             }).SetEase(Ease.InBack);
         }
@@ -103,7 +104,7 @@ namespace _3._Scripts.Interactive
             var position = transform.localPosition;
             transform.DOShakePosition(0.25f, 0.25f, 50).OnComplete(() => transform.localPosition = position);
         }
-        
+
         private int GetDamage()
         {
             var x2 = BoostersHandler.Instance.X2Currency ? 2 : 1;

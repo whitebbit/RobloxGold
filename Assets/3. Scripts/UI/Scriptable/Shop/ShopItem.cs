@@ -1,4 +1,5 @@
 ﻿using System;
+using _3._Scripts.Config;
 using _3._Scripts.Currency.Enums;
 using _3._Scripts.UI.Enums;
 using UnityEngine;
@@ -22,6 +23,6 @@ namespace _3._Scripts.UI.Scriptable.Shop
         public Rarity Rarity => rarity;
 
         public CurrencyType CurrencyType => currencyType;
-        public int Price => price;
+        public int Price => (int) Math.Ceiling(price * RemoteConfig.ShopPriceMultiplier);
     }
 }
