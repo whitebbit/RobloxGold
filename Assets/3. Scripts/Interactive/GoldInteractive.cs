@@ -20,9 +20,9 @@ namespace _3._Scripts.Interactive
         [SerializeField] private CurrencyCounterEffect effect;
         private float _currentGoldAmount;
         public float Multiplier { get; set; }
-
         public float GoldAmount => goldAmount;
 
+        private float _damageTimer;
         private void Start()
         {
             SetAmount();
@@ -39,6 +39,11 @@ namespace _3._Scripts.Interactive
              healthBar.UpdateHealthBar(goldAmount * Multiplier, _currentGoldAmount);
         }
 
+        private void Update()
+        {
+            DamageTimer();
+        }
+
         private void TakeDamage()
         {
             if (_currentGoldAmount <= 0) return;
@@ -46,26 +51,59 @@ namespace _3._Scripts.Interactive
             var damage = GetDamage();
             if (damage <= 0) return;
 
-            var obj = EffectPanel.Instance.SpawnEffect(effect);
-            var position = transform.localPosition;
-
-            obj.Initialize(CurrencyType.First, damage);
-            WalletManager.ThirdCurrency += damage;
-            _currentGoldAmount -= damage;
-            healthBar.UpdateHealthBar(goldAmount * Multiplier, _currentGoldAmount);
-
-            transform.DOShakePosition(0.25f, 0.25f, 50).OnComplete(() => transform.localPosition = position);
-            if (_currentGoldAmount <= 0)
-            {
-                transform.DOScale(Vector3.zero, 0.25f).OnComplete(() =>
-                {
-                    transform.DOScale(Vector3.one, 0.25f).SetDelay(10).SetEase(Ease.OutBack)
-                        .OnComplete(SetAmount);
-                }).SetEase(Ease.InBack);
-            }
+            
+            CreateEffect(damage);
+            UpdateWallet(damage);
+            DoShake();
+            ResetObject();
+            _damageTimer = 3;
         }
 
+        private void DamageTimer()
+        {
+            switch (_damageTimer)
+            {
+                case > 0:
+                    _damageTimer -= Time.deltaTime;
+                    return;
+                case <= 0:
+                    healthBar.SetState(false);
+                    break;
+            }
+        }
+        
+        private void UpdateWallet(int damage)
+        {
+            WalletManager.ThirdCurrency += damage;
+            _currentGoldAmount -= damage;
+            healthBar.SetState(true);
+            healthBar.UpdateHealthBar(goldAmount * Multiplier, _currentGoldAmount);
+        }
 
+        private void ResetObject()
+        {
+            if (!(_currentGoldAmount <= 0)) return;
+
+            var scale = transform.localScale;
+            transform.DOScale(Vector3.zero, 0.25f).OnComplete(() =>
+            {
+                transform.DOScale(scale, 0.25f).SetDelay(10).SetEase(Ease.OutBack)
+                    .OnComplete(SetAmount);
+            }).SetEase(Ease.InBack);
+        }
+
+        private void CreateEffect(int damage)
+        {
+            var obj = EffectPanel.Instance.SpawnEffect(effect);
+            obj.Initialize(CurrencyType.Third, damage);
+        }
+
+        private void DoShake()
+        {
+            var position = transform.localPosition;
+            transform.DOShakePosition(0.25f, 0.25f, 50).OnComplete(() => transform.localPosition = position);
+        }
+        
         private int GetDamage()
         {
             var x2 = BoostersHandler.Instance.X2Currency ? 2 : 1;

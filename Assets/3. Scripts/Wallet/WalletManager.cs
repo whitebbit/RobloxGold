@@ -84,7 +84,7 @@ namespace _3._Scripts.Wallet
             return number switch
             {
                 < 1000 => number.ToString(),
-                < 1_000_000 => (number / 1_000D).ToString("0.#") + "k",
+                < 1_000_000 => (number / 1_000D).ToString("0.#") + "K",
                 < 1_000_000_000 => (number / 1_000_000D).ToString("0.#") + "M",
                 < 1_000_000_000_000 => (number / 1_000_000_000D).ToString("0.#") + "B",
                 _ => (number / 1_000_000_000_000D).ToString("0.#") + "T"

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using _3._Scripts.Currency.Scriptable;
 using _3._Scripts.UI.Scriptable.Shop;
 using _3._Scripts.UI.Structs;
+using _3._Scripts.Wallet;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
@@ -76,7 +77,7 @@ namespace _3._Scripts.UI.Elements
 
         public void Lock()
         {
-            price.text = Data.Price.ToString();
+            price.text = WalletManager.ConvertToWallet(Data.Price);
             currencyIcon.gameObject.SetActive(true);
         }
 
