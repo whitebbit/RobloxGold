@@ -59,7 +59,7 @@ namespace _3._Scripts.Interactive
             {
                 transform.DOScale(Vector3.zero, 0.25f).OnComplete(() =>
                 {
-                    transform.DOScale(Vector3.one, 0.25f).SetDelay(30).SetEase(Ease.OutBack)
+                    transform.DOScale(Vector3.one, 0.25f).SetDelay(10).SetEase(Ease.OutBack)
                         .OnComplete(SetAmount);
                 }).SetEase(Ease.InBack);
             }

@@ -39,6 +39,7 @@ namespace _3._Scripts.Player
             InitializeCharacter();
             InitializeTrail();
             InitializePets();
+            SetUpgrade();
             var stage = GBGames.saves.stageID < 0 ? 0 : GBGames.saves.stageID;
             Teleport(StageController.Instance.GetSpawnPoint(stage));
         }
@@ -55,6 +56,12 @@ namespace _3._Scripts.Player
         {
             var id = GBGames.saves.characterSaves.current;
             CharacterHandler.SetCharacter(id, transform);
+        }    
+        public void SetUpgrade()
+        {
+            var id = GBGames.saves.upgradeSaves.current;
+            var list = GetComponentsInChildren<GlovePoint>();
+            UpgradeHandler.SetUpgrade(id, list);
         }
 
         private void InitializeTrail()

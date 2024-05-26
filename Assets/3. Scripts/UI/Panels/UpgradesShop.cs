@@ -31,7 +31,7 @@ namespace _3._Scripts.UI.Panels
             
             GBGames.saves.upgradeSaves.SetCurrent(id);
             GBGames.instance.Save();
-            Player.Player.Instance.UpgradeHandler.SetUpgrade(id);
+            Player.Player.Instance.SetUpgrade();
             SetSlotsState();
             return true;
         }

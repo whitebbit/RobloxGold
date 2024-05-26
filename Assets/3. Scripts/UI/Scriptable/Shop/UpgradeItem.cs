@@ -8,12 +8,11 @@ namespace _3._Scripts.UI.Scriptable.Shop
     public class UpgradeItem : ShopItem
     {
         [SerializeField] private float booster;
-        [Tab("Prefab")] [SerializeField] private GameObject prefab;
-
+        [SerializeField] private Color color;
+        
         public float Booster => booster;
 
-        public GameObject Prefab => prefab;
-
+        public Color Color => color;
         public override string Title()
         {
             return $"{(1 - booster + 1) * 100}%";

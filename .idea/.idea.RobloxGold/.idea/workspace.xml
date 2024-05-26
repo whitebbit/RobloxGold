@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9715e77-c2c6-406d-832c-48bf516b4ade" name="Default Changelist" comment="" />
+    <list default="true" id="d9715e77-c2c6-406d-832c-48bf516b4ade" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/Upgrades/Enum.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/Upgrades/Enum/GloveType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/Upgrades/Enum/GloveType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/Upgrades/GlovePoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/Upgrades/GlovePoint.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1. Visual/Models/2d0c46a92c5c4f329ed03ad496de5ba0.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1. Visual/Models/2d0c46a92c5c4f329ed03ad496de5ba0.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1. Visual/Models/f77adef41b694fc199f0df01933c69ce.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1. Visual/Models/f77adef41b694fc199f0df01933c69ce.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/Catnap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/Catnap.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/DagdayFBX@T-Pose.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/DagdayFBX@T-Pose.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/Default.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/Default.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/HagiFBX@T-Pose.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/HagiFBX@T-Pose.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/PomniFBX@T-Pose.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/PomniFBX@T-Pose.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/SVOFBX@T-Pose.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/SVOFBX@T-Pose.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/SpidermanFBX@T-Pose.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/SpidermanFBX@T-Pose.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/ZoroFBX@T-Pose.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/ZoroFBX@T-Pose.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/coolguyFBX@T-Pose.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/coolguyFBX@T-Pose.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/deadpoolFBX@T-Pose.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/deadpoolFBX@T-Pose.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/demonFBX@T-Pose.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/demonFBX@T-Pose.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/freddyFBX@T-Pose.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/freddyFBX@T-Pose.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/gojofbx@T-Pose.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/gojofbx@T-Pose.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/goldmaskFBX@T-Pose.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/goldmaskFBX@T-Pose.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/greenboyFBX@T-Pose.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/greenboyFBX@T-Pose.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/iceguyFBX@T-Pose.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/iceguyFBX@T-Pose.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/kostymFBX@T-Pose.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/kostymFBX@T-Pose.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/spermanFBX@T-Pose.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Characters/spermanFBX@T-Pose.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/CharacterShop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/CharacterShop.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/UpgradesShop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/UpgradesShop.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/UI/Scriptable/Shop/UpgradeItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/UI/Scriptable/Shop/UpgradeItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Upgrades/UpgradeHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Upgrades/UpgradeHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/5. Scenes/Loader.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/5. Scenes/Loader.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/5. Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/5. Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Upgrades/default_upgrade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Upgrades/default_upgrade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Upgrades/upgrade_test.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Upgrades/upgrade_test.asset.meta" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,13 +78,10 @@
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/Enums/PortalType.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/ObjectButton.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/StageController.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/CharacterShop.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/TrailsShop.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/UpgradesShop.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerAnimator.cs" />
       <option value="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/Scripts/Storage/SavesGB.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/Stage.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Player/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/Portal.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Wallet/WalletManager.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Pets/PetUnlocker.cs" />
@@ -50,7 +89,14 @@
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/HelthBar.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/HealthBar.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Upgrades/Enum/GloveType.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Scriptable/Shop/UpgradeItem.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/UpgradesShop.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Upgrades/GlovePoint.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Upgrades/UpgradeHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Player/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/CharacterShop.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2goPp64ixzxJjJZjmiAsQUXExkm" />
@@ -104,6 +150,7 @@
       <workItem from="1716536084349" duration="5846000" />
       <workItem from="1716558073526" duration="6810000" />
       <workItem from="1716622075698" duration="9083000" />
+      <workItem from="1716671092286" duration="4205000" />
     </task>
     <servers />
   </component>
