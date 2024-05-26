@@ -28,7 +28,7 @@ namespace _3._Scripts.UI.Effects
                 var rand = Random.Range(0, 2) == 0 ? Vector2.right : -Vector2.right;
                 var size = rect.sizeDelta.y;
                 var target = Vector2.up * size * 10 + rand * size * 2.5f;
-                rect.DOAnchorPos(target, 0.75f)
+                rect.DOAnchorPos(target, 1.5f)
                     .SetLink(gameObject)
                     .SetEase(Ease.InBack)
                     .OnComplete(() => Destroy(gameObject));

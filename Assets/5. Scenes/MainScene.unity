@@ -34121,7 +34121,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 739004659}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.28978413, y: -0.000000016468093, z: 0.0000000049861373, w: 0.95709205}
+  m_LocalRotation: {x: 0.28978413, y: 0.00000001646809, z: -0.000000004986136, w: 0.95709205}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -54650,6 +54650,15 @@ MonoBehaviour:
   allUpgrades:
   - {fileID: 11400000, guid: 31e2677d93c35444b9add8f9057ee866, type: 2}
   - {fileID: 11400000, guid: 3c87709c568e0d44290beb94ed841789, type: 2}
+  - {fileID: 11400000, guid: a8a5f75bc0fc57940b797f760be8a754, type: 2}
+  - {fileID: 11400000, guid: 205f4886326c7224ea55c80f2f19dfc4, type: 2}
+  - {fileID: 11400000, guid: bdaa0366ec99f314880fa3103baad4d4, type: 2}
+  - {fileID: 11400000, guid: d286d4f3faf6ae14a9494dd335d7f112, type: 2}
+  - {fileID: 11400000, guid: 5b2171758f881df47914f60fba1fbc0e, type: 2}
+  - {fileID: 11400000, guid: c65834def105af44993a7f669dbc9e80, type: 2}
+  - {fileID: 11400000, guid: 111def7f6666c4f40b9865c5c388859a, type: 2}
+  - {fileID: 11400000, guid: 29a24d1f9976f444fa69026e90fd3b47, type: 2}
+  - {fileID: 11400000, guid: 7a6dfe73fc150624281edbca0cd3490f, type: 2}
 --- !u!114 &1298134341
 MonoBehaviour:
   m_ObjectHideFlags: 0

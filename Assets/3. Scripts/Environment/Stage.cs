@@ -25,18 +25,7 @@ namespace _3._Scripts.Environment
         public int ID => id;
         public Transform SpawnPoint => spawnPoint;
 
-#if UNITY_EDITOR
 
-        private void OnValidate()
-        {
-            var list = FindObjectsByType<Stage>(FindObjectsInactive.Exclude, FindObjectsSortMode.None).ToList();
-            foreach (var _ in list.Where(stage => stage != this && id == stage.id))
-            {
-                id++;
-            }
-        }
-
-#endif
 
         private void Awake()
         {

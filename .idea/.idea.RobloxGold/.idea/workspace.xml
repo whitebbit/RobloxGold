@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9715e77-c2c6-406d-832c-48bf516b4ade" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_02.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_03.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_03.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_04.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_04.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Crate 02 (5).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Crate 02 (5).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/HealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/HealthBar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/UI/UpgradeSlot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/UI/UpgradeSlot.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Environment/Stage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Environment/Stage.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/UI/Effects/CurrencyCounterEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/UI/Effects/CurrencyCounterEffect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/UI/Elements/ShopSlot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/UI/Elements/ShopSlot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Wallet/WalletManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Wallet/WalletManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/5. Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/5. Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/UpgradesShop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/UpgradesShop.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Upgrades/default_upgrade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Upgrades/default_upgrade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Upgrades/upgrade_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Upgrades/upgrade_1.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,17 +55,17 @@
       <option value="$PROJECT_DIR$/Assets/3. Scripts/HelthBar.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Upgrades/Enum/GloveType.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Scriptable/Shop/UpgradeItem.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/UpgradesShop.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Upgrades/GlovePoint.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Upgrades/UpgradeHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Player/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/CharacterShop.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/Stage.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Effects/CurrencyCounterEffect.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/HealthBar.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Elements/ShopSlot.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Wallet/WalletManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Effects/CurrencyCounterEffect.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/UpgradesShop.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/Stage.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2goPp64ixzxJjJZjmiAsQUXExkm" />
@@ -124,7 +121,7 @@
       <workItem from="1716622075698" duration="9083000" />
       <workItem from="1716671092286" duration="4205000" />
       <workItem from="1716711678451" duration="132000" />
-      <workItem from="1716711843724" duration="3645000" />
+      <workItem from="1716711843724" duration="5255000" />
     </task>
     <servers />
   </component>

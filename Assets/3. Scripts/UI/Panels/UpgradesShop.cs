@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using _3._Scripts.Characters;
 using _3._Scripts.Config;
+using _3._Scripts.UI.Elements;
 using _3._Scripts.UI.Scriptable.Shop;
 using _3._Scripts.Wallet;
 using GBGamesPlugin;
@@ -47,6 +48,10 @@ namespace _3._Scripts.UI.Panels
             GBGames.saves.upgradeSaves.Unlock(id);
             Select(id);
             return true;
+        }
+        protected override void OnSpawnItems(ShopSlot slot, UpgradeItem data)
+        {
+            slot.SetIconColor(data.Color);
         }
     }
 }
