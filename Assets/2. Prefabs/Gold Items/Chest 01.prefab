@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0c7c189ab574809ad16699981652b5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goldAmount: 2500
+  goldAmount: 3250
   healthBar: {fileID: 8188038320430232993}
   effect: {fileID: 1435494698352475531, guid: e109d0a8d9770d046b27d969b097cfad, type: 3}
   damageEffect: {fileID: 168770472487439047, guid: f09a99961a77893488529f97729e040a, type: 3}
