@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc77ba5bdead465a9e7a64059ec3ef30, type: 3}
-  m_Name: character_greenboy
+  m_Name: 5.character_deadpool
   m_EditorClassIdentifier: 
-  id: character_greenboy
-  icon: {fileID: 21300000, guid: 94b6eed1c7e61cc4eae9cb7791a24a97, type: 3}
-  rarity: 1
+  id: character_deadpool
+  icon: {fileID: 21300000, guid: ec3279533ec81224ab0223f4994b9c09, type: 3}
+  rarity: 2
   currencyType: 2
-  price: 250
-  booster: 1.25
-  prefab: {fileID: 5251937394463488179, guid: 5f617b84813e787459e04bd5b2f2807b, type: 3}
+  price: 6000000
+  booster: 10.15
+  prefab: {fileID: 4055306014789137511, guid: 5a9a697efcb4d8840aee048327b0a94a, type: 3}

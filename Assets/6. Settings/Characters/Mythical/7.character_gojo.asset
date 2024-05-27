@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc77ba5bdead465a9e7a64059ec3ef30, type: 3}
-  m_Name: character_kostym
+  m_Name: 7.character_gojo
   m_EditorClassIdentifier: 
-  id: character_kostym
-  icon: {fileID: 21300000, guid: 108f9060d89a77841ba1c2d2d43fc34b, type: 3}
-  rarity: 1
+  id: character_gojo
+  icon: {fileID: 21300000, guid: 2ae54c64fad054843bd2cb09ded0be65, type: 3}
+  rarity: 2
   currencyType: 2
-  price: 500
-  booster: 1.3
-  prefab: {fileID: 221962451348838131, guid: 2662f24426575ab4793c434863e7e33c, type: 3}
+  price: 17500000
+  booster: 12.74
+  prefab: {fileID: 3891135716263930877, guid: 51ccf8022eca81e439a438d64f79234e, type: 3}

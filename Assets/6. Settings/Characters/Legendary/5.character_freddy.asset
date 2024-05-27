@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc77ba5bdead465a9e7a64059ec3ef30, type: 3}
-  m_Name: character_deadpool
+  m_Name: 5.character_freddy
   m_EditorClassIdentifier: 
-  id: character_deadpool
-  icon: {fileID: 21300000, guid: ec3279533ec81224ab0223f4994b9c09, type: 3}
-  rarity: 2
+  id: character_freddy
+  icon: {fileID: 21300000, guid: b34ffbbcbbca6424cb5d50768c0be818, type: 3}
+  rarity: 3
   currencyType: 2
-  price: 5000
-  booster: 2.15
-  prefab: {fileID: 4055306014789137511, guid: 5a9a697efcb4d8840aee048327b0a94a, type: 3}
+  price: 750000000
+  booster: 19.85
+  prefab: {fileID: 8626583878119005900, guid: 80585a0d9cbd7b1409ffd21376350d32, type: 3}

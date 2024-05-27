@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc77ba5bdead465a9e7a64059ec3ef30, type: 3}
-  m_Name: character_coolguy
+  m_Name: 2.character_pomni
   m_EditorClassIdentifier: 
-  id: character_coolguy
-  icon: {fileID: 21300000, guid: 8b8faec4441e4d743a69b000a0bf5f30, type: 3}
-  rarity: 1
+  id: character_pomni
+  icon: {fileID: 21300000, guid: 00f8f0e0ed5a54d4db6dcfffcd1bff57, type: 3}
+  rarity: 3
   currencyType: 2
-  price: 25
-  booster: 1.1
-  prefab: {fileID: 2339035969318698625, guid: 7ef9f71ffbcea784e879f7457b5b85ac, type: 3}
+  price: 75000000
+  booster: 16.99
+  prefab: {fileID: 8236743331774928071, guid: d495b5d031b569b44b28a998aeebb94c, type: 3}

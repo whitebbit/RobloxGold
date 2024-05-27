@@ -15,6 +15,6 @@ MonoBehaviour:
   id: pet_eagle_3
   prefab: {fileID: 6086764061269720924, guid: 2e51426705eccc8419756a4fb42d9d8d, type: 3}
   currencyType: 2
-  booster: 1.8
+  booster: 3.45
   icon: {fileID: 21300000, guid: 1fe51d612bbfabb49ba9534d0dcc7c08, type: 3}
   rarity: 2

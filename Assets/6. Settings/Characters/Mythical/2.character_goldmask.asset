@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc77ba5bdead465a9e7a64059ec3ef30, type: 3}
-  m_Name: character_pomni
+  m_Name: 2.character_goldmask
   m_EditorClassIdentifier: 
-  id: character_pomni
-  icon: {fileID: 21300000, guid: 00f8f0e0ed5a54d4db6dcfffcd1bff57, type: 3}
-  rarity: 3
+  id: character_goldmask
+  icon: {fileID: 21300000, guid: ccdfe0f31669a2a4ba3ebda5de8a6be6, type: 3}
+  rarity: 2
   currencyType: 2
-  price: 15000
-  booster: 2.9
-  prefab: {fileID: 8236743331774928071, guid: d495b5d031b569b44b28a998aeebb94c, type: 3}
+  price: 799999
+  booster: 7.49
+  prefab: {fileID: 5665135970736663166, guid: 88d3eb3f4e7555f43bdd070cc9eb0487, type: 3}

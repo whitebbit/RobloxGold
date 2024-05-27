@@ -16,6 +16,6 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: f0662c3d5e03c5f4fbbe5b30eb8c9670, type: 3}
   rarity: 3
   currencyType: 2
-  price: 10000
-  booster: 0.45
+  price: 2250000
+  booster: 0.4
   color: {r: 0.44591188, g: 0, b: 1, a: 1}

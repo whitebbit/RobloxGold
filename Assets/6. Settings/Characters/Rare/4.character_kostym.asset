@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc77ba5bdead465a9e7a64059ec3ef30, type: 3}
-  m_Name: character_goldmask
+  m_Name: 4.character_kostym
   m_EditorClassIdentifier: 
-  id: character_goldmask
-  icon: {fileID: 21300000, guid: ccdfe0f31669a2a4ba3ebda5de8a6be6, type: 3}
-  rarity: 2
+  id: character_kostym
+  icon: {fileID: 21300000, guid: 108f9060d89a77841ba1c2d2d43fc34b, type: 3}
+  rarity: 1
   currencyType: 2
-  price: 2500
-  booster: 1.8
-  prefab: {fileID: 5665135970736663166, guid: 88d3eb3f4e7555f43bdd070cc9eb0487, type: 3}
+  price: 35000
+  booster: 4.65
+  prefab: {fileID: 221962451348838131, guid: 2662f24426575ab4793c434863e7e33c, type: 3}
