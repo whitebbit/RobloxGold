@@ -107,6 +107,10 @@ MonoBehaviour:
     m_Key: teleport
     m_Metadata:
       m_Items: []
+  - m_Id: 4238873353920512
+    m_Key: training
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
