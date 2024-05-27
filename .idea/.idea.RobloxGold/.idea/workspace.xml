@@ -2,23 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9715e77-c2c6-406d-832c-48bf516b4ade" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/UI/Effects/DamageCounterEffect.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/UI/Effects/DamageCounterEffect.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 02.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 05A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 05A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 06A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 06A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_02.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_03.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_03.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_04.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_04.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Crate 02 (5).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Crate 02 (5).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Gift_Red.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Gift_Red.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1. Visual/Sprites/Characters/Characters.spriteatlasv2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1. Visual/Sprites/Characters/Characters.spriteatlasv2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1. Visual/Sprites/Pets/Pets.spriteatlasv2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1. Visual/Sprites/Pets/Pets.spriteatlasv2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Environment/Stage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Environment/Stage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Environment/StageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Environment/StageController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/HealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/HealthBar.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/4. Animations/Character.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/4. Animations/Character.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Pets/PetUnlocker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Pets/PetUnlocker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/5. Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/5. Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/CartoonTown-LowPolyAssets/Textures/Textures.spriteatlasv2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/CartoonTown-LowPolyAssets/Textures/Textures.spriteatlasv2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_01_A.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_01_A.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_01_B.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_01_B.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_01_C.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_01_C.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_02_A.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_02_A.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_02_B.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_02_B.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_02_C.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_02_C.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_03_A.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_03_A.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_03_B.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_03_B.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_03_C.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_03_C.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_04_A.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_04_A.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_04_B.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_04_B.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_04_C.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Dungeons_2_Texture_04_C.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Tetures.spriteatlasv2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/PolygonDungeonRealms/Textures/Tetures.spriteatlasv2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Y. Imported Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/UI.spriteatlasv2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Y. Imported Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/UI.spriteatlasv2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +65,9 @@
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Boosters/BoostersHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/Enums/PortalType.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/ObjectButton.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/StageController.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/TrailsShop.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerAnimator.cs" />
       <option value="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/Scripts/Storage/SavesGB.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Pets/PetUnlocker.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Interactive/TrainingInteractive.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/HelthBar.cs" />
@@ -67,20 +80,22 @@
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Effects/CurrencyCounterEffect.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/UpgradesShop.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Scriptable/Shop/ShopItem.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/HealthBar.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Debugger/Debugger.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerAction.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/Portal.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Config/RemoteConfigValue.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Config/RemoteConfig.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Upgrades/UpgradeHandler.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/Stage.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Player/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Boosters/BoosterButton.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Config/RemoteConfiguration.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/GoldPlatform.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Effects/DamageCounterEffect.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/Stage.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/StageController.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/HealthBar.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Pets/PetUnlocker.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2goPp64ixzxJjJZjmiAsQUXExkm" />
@@ -138,7 +153,8 @@
       <workItem from="1716711678451" duration="132000" />
       <workItem from="1716711843724" duration="5851000" />
       <workItem from="1716725289630" duration="8495000" />
-      <workItem from="1716802822936" duration="1448000" />
+      <workItem from="1716802822936" duration="3777000" />
+      <workItem from="1716816044145" duration="285000" />
     </task>
     <servers />
   </component>

@@ -114,8 +114,7 @@ namespace _3._Scripts.Interactive
             var x2 = BoostersHandler.Instance.X2Currency ? 2 : 1;
             var pets = Configuration.Instance.AllPets.Where(p => GBGames.saves.petSaves.IsCurrent(p.ID)).ToList();
             var strength = (int) Math.Ceiling(WalletManager.FirstCurrency + pets.Sum(p => p.Booster));
-            var result = (int) Math.Ceiling((goldAmount / (goldAmount / strength)) * x2);
-            return (int) Mathf.Clamp(result, 0, _currentGoldAmount);
+            return strength * x2;
         }
     }
 }

@@ -20,23 +20,28 @@ namespace _3._Scripts.Environment
         [SerializeField] private Transform leftDoor;
         [SerializeField] private float doorRotation;
 
-
+        public bool Opened => GBGames.saves.stageID >= id;
+        public bool Unlocked => GBGames.saves.stageID + 1 >= id;
         public int UnlockPrice => (int) Math.Ceiling(unlockPrice * RemoteConfiguration.StagePriceMultiplier);
 
         public int ID => id;
         public Transform SpawnPoint => spawnPoint;
 
 
-
-        private void Awake()
+        private void OnValidate()
         {
             name = $"Stage_{id}";
         }
 
-        private void Start()
+        public void Initialize()
         {
-            var state = GBGames.saves.stageID >= id;
-            SetDoorState(state);
+            SetVisibility(Unlocked);
+            SetDoorState(Opened);
+        }
+
+        public void SetVisibility(bool state)
+        {
+            gameObject.SetActive(state);
         }
 
         public void Open()
@@ -46,6 +51,7 @@ namespace _3._Scripts.Environment
             SetDoorState(true);
             GBGames.saves.stageID += 1;
             WalletManager.SecondCurrency += 1;
+            StageController.Instance.UnlockStage(id + 1);
             GBGames.instance.Save();
         }
 

@@ -62,9 +62,9 @@ namespace _3._Scripts.Pets
         {
             var itemWeights = new Dictionary<PetData, int>();
 
-            const int rareWeight = 75;
-            const int mythicalWeight = 20;
-            const int legendaryWeight = 5;
+            const int rareWeight = 80;
+            const int mythicalWeight = 19;
+            const int legendaryWeight = 1;
 
             foreach (var item in items)
             {

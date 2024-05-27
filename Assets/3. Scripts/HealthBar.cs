@@ -26,6 +26,7 @@ namespace _3._Scripts
         public void UpdateHealthBar(float max, float current)
         {
             var value = current / max;
+            current = Mathf.Clamp(current, 0, current);
             counter.text = ((int)current).ToString();
             slider.DOFillAmount(value, 0.1f);
         }
