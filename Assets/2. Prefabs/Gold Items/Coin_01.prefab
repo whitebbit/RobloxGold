@@ -400,6 +400,7 @@ MonoBehaviour:
   goldAmount: 100
   healthBar: {fileID: 1165188536195408141}
   effect: {fileID: 1435494698352475531, guid: e109d0a8d9770d046b27d969b097cfad, type: 3}
+  damageEffect: {fileID: 168770472487439047, guid: f09a99961a77893488529f97729e040a, type: 3}
 --- !u!1 &7224819972907884074
 GameObject:
   m_ObjectHideFlags: 0

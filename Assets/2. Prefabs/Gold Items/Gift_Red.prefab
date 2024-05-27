@@ -102,6 +102,7 @@ MonoBehaviour:
   goldAmount: 925
   healthBar: {fileID: 5497070526926958516}
   effect: {fileID: 1435494698352475531, guid: e109d0a8d9770d046b27d969b097cfad, type: 3}
+  damageEffect: {fileID: 168770472487439047, guid: f09a99961a77893488529f97729e040a, type: 3}
 --- !u!65 &5416802786418534871
 BoxCollider:
   m_ObjectHideFlags: 0

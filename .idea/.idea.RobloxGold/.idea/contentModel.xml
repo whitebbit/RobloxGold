@@ -137,6 +137,7 @@
           <e p="UI" t="Include">
             <e p="Effects" t="Include">
               <e p="CurrencyCounterEffect.cs" t="Include" />
+              <e p="DamageCounterEffect.cs" t="Include" />
             </e>
             <e p="Elements" t="Include">
               <e p="GiftSlot.cs" t="Include" />
@@ -407,6 +408,30 @@
           </e>
         </e>
         <e p="Y. Imported Assets" t="Include">
+          <e p="AutoLOD" t="Include">
+            <e p="Demo" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="GlobalSmoothRotation.cs" t="Include" />
+              </e>
+            </e>
+            <e p="License.txt" t="Include" />
+            <e p="Resources" t="Include">
+              <e p="Shaders" t="Include">
+                <e p="AutoLODWireframe.shader" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="AutoLOD.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="AutoLODSettings.cs" t="Include" />
+              </e>
+              <e p="Tools" t="Include">
+                <e p="AutoLODProperties.cs" t="Include" />
+                <e p="MeshDecimatorUnityEngine.cs" t="Include" />
+                <e p="MeshUtility.cs" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="CrazyOptimizer" t="Include">
             <e p="Editor" t="Include">
               <e p="OptimizerUtils.cs" t="Include" />

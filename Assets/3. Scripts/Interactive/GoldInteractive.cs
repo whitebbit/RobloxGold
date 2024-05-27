@@ -18,6 +18,7 @@ namespace _3._Scripts.Interactive
         [SerializeField] private float goldAmount;
         [SerializeField] private HealthBar healthBar;
         [SerializeField] private CurrencyCounterEffect effect;
+        [SerializeField] private DamageCounterEffect damageEffect;
         private float _currentGoldAmount;
         public float Multiplier { get; set; }
         public int GoldAmount => (int) Math.Ceiling(goldAmount * Multiplier);
@@ -32,6 +33,7 @@ namespace _3._Scripts.Interactive
         public void Interact()
         {
             TakeDamage();
+            
         }
 
         private void SetAmount()
@@ -51,9 +53,10 @@ namespace _3._Scripts.Interactive
 
             var damage = GetDamage();
             if (damage <= 0) return;
-
-
-            CreateEffect(damage);
+            
+            var damageObj = EffectPanel.Instance.SpawnEffect(damageEffect);
+            damageObj.Initialize(damage);
+            
             UpdateWallet(damage);
             DoShake();
             ResetObject();
@@ -75,7 +78,6 @@ namespace _3._Scripts.Interactive
 
         private void UpdateWallet(int damage)
         {
-            WalletManager.ThirdCurrency += damage;
             _currentGoldAmount -= damage;
             healthBar.SetState(true);
             healthBar.UpdateHealthBar(goldAmount * Multiplier, _currentGoldAmount);
@@ -84,13 +86,15 @@ namespace _3._Scripts.Interactive
         private void ResetObject()
         {
             if (!(_currentGoldAmount <= 0)) return;
-
             var scale = transform.localScale;
             transform.DOScale(Vector3.zero, 0.25f).OnComplete(() =>
             {
                 transform.DOScale(scale, 0.25f).SetDelay(RemoteConfiguration.GoldRespawn).SetEase(Ease.OutBack)
                     .OnComplete(SetAmount);
             }).SetEase(Ease.InBack);
+            
+            WalletManager.ThirdCurrency += GoldAmount;
+            CreateEffect(GoldAmount);
         }
 
         private void CreateEffect(int damage)

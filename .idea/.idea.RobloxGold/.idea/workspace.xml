@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9715e77-c2c6-406d-832c-48bf516b4ade" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/UI/Effects/DamageCounterEffect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/UI/Effects/DamageCounterEffect.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 02.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 05A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 05A.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 06A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 06A.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_02.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_03.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_03.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_04.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Coin_04.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Crate 02 (5).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Crate 02 (5).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Gift_Red.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Gift_Red.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/4. Animations/Character.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/4. Animations/Character.controller" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +67,6 @@
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Effects/CurrencyCounterEffect.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/UpgradesShop.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Scriptable/Shop/ShopItem.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/HealthBar.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Debugger/Debugger.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerAction.cs" />
@@ -64,6 +79,8 @@
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Boosters/BoosterButton.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Config/RemoteConfiguration.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/GoldPlatform.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Effects/DamageCounterEffect.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2goPp64ixzxJjJZjmiAsQUXExkm" />
@@ -121,6 +138,7 @@
       <workItem from="1716711678451" duration="132000" />
       <workItem from="1716711843724" duration="5851000" />
       <workItem from="1716725289630" duration="8495000" />
+      <workItem from="1716802822936" duration="1448000" />
     </task>
     <servers />
   </component>
