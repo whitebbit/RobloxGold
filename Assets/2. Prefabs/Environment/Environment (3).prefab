@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2026154536871123724}
+  - component: {fileID: 1872684385439228044}
+  - component: {fileID: 7733057951852719165}
   m_Layer: 0
   m_Name: Environment (3)
   m_TagString: Untagged
@@ -48,6 +50,57 @@ Transform:
   - {fileID: 2907993093981450347}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!33 &1872684385439228044
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9008087101599707570}
+  m_Mesh: {fileID: 4300000, guid: 9a6cdc9fcfb62814f88168cbf1fc1560, type: 2}
+--- !u!23 &7733057951852719165
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9008087101599707570}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: fb1377c6c3a6a410bbeea9b5ff5fdd79, type: 2}
+  - {fileID: 2100000, guid: 87a059ac3be574701a4e7eb14e8cf47d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &211002191838529696
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59,6 +112,10 @@ PrefabInstance:
     - target: {fileID: 154600, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
       propertyPath: m_Name
       value: Tree_Stripes_Pink (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 154600, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 487744, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
       propertyPath: m_LocalScale.x
@@ -138,6 +195,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Stripes_Pink (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 154600, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 487744, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.9312963
@@ -200,6 +261,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Stripes_Pink (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 154600, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 487744, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -17.701294
@@ -261,6 +326,10 @@ PrefabInstance:
     - target: {fileID: 171422, guid: 80143bd420c3841ec90b722796c8a2d0, type: 3}
       propertyPath: m_Name
       value: PineTree_Dark (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 171422, guid: 80143bd420c3841ec90b722796c8a2d0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 439168, guid: 80143bd420c3841ec90b722796c8a2d0, type: 3}
       propertyPath: m_LocalScale.x
@@ -340,6 +409,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PineTree_Dark
       objectReference: {fileID: 0}
+    - target: {fileID: 171422, guid: 80143bd420c3841ec90b722796c8a2d0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 439168, guid: 80143bd420c3841ec90b722796c8a2d0, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -417,6 +490,10 @@ PrefabInstance:
     - target: {fileID: 145428, guid: 8479ceeab04b940629411485ca70ac04, type: 3}
       propertyPath: m_Name
       value: Floor_Grass_High
+      objectReference: {fileID: 0}
+    - target: {fileID: 145428, guid: 8479ceeab04b940629411485ca70ac04, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 405908, guid: 8479ceeab04b940629411485ca70ac04, type: 3}
       propertyPath: m_RootOrder
@@ -496,6 +573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PineTree_Dark (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 171422, guid: 80143bd420c3841ec90b722796c8a2d0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 439168, guid: 80143bd420c3841ec90b722796c8a2d0, type: 3}
       propertyPath: m_LocalScale.x
       value: 8
@@ -573,6 +654,10 @@ PrefabInstance:
     - target: {fileID: 154600, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
       propertyPath: m_Name
       value: Tree_Stripes_Pink (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 154600, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 487744, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
       propertyPath: m_LocalScale.x
@@ -652,6 +737,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Stripes_Pink (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 154600, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 487744, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -730,6 +819,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Stripes_Pink
       objectReference: {fileID: 0}
+    - target: {fileID: 154600, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 487744, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.1687038
@@ -791,6 +884,10 @@ PrefabInstance:
     - target: {fileID: 154600, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
       propertyPath: m_Name
       value: Tree_Stripes_Pink (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 154600, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 487744, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
       propertyPath: m_LocalScale.x
@@ -870,6 +967,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Stripes_Pink (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 154600, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 487744, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -947,6 +1048,10 @@ PrefabInstance:
     - target: {fileID: 154600, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
       propertyPath: m_Name
       value: Tree_Stripes_Pink (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 154600, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 487744, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
       propertyPath: m_LocalScale.x
@@ -1026,6 +1131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Stripes_Pink (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 154600, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 487744, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -1103,6 +1212,10 @@ PrefabInstance:
     - target: {fileID: 171422, guid: 80143bd420c3841ec90b722796c8a2d0, type: 3}
       propertyPath: m_Name
       value: PineTree_Dark (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 171422, guid: 80143bd420c3841ec90b722796c8a2d0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 439168, guid: 80143bd420c3841ec90b722796c8a2d0, type: 3}
       propertyPath: m_LocalScale.x
@@ -1182,6 +1295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Stripes_Pink (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 154600, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 487744, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.188709
@@ -1243,6 +1360,10 @@ PrefabInstance:
     - target: {fileID: 154600, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
       propertyPath: m_Name
       value: Tree_Stripes_Pink (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 154600, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 487744, guid: 06c2abb15ec924fe4b9846fc0000520f, type: 3}
       propertyPath: m_LocalScale.x

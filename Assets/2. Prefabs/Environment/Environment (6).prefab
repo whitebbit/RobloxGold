@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4176926446475248313}
+  - component: {fileID: 4059736800325258784}
+  - component: {fileID: 4263299214998178758}
   m_Layer: 0
   m_Name: Environment (6)
   m_TagString: Untagged
@@ -47,6 +49,59 @@ Transform:
   - {fileID: 4310706824954377700}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!33 &4059736800325258784
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8267324074437869894}
+  m_Mesh: {fileID: 4300000, guid: 74939ff6f24651448a05f9c79f3a394f, type: 2}
+--- !u!23 &4263299214998178758
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8267324074437869894}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 87a059ac3be574701a4e7eb14e8cf47d, type: 2}
+  - {fileID: 2100000, guid: fb1377c6c3a6a410bbeea9b5ff5fdd79, type: 2}
+  - {fileID: 2100000, guid: 29a1f96f12bf10d4aaa5abda2f1e3094, type: 2}
+  - {fileID: 2100000, guid: ea12ef2033f40874896d5b1b833606db, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &708771823706126625
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58,6 +113,10 @@ PrefabInstance:
     - target: {fileID: 109220, guid: 3b752f5de6ac24473a993c4cada362d7, type: 3}
       propertyPath: m_Name
       value: Railway (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 109220, guid: 3b752f5de6ac24473a993c4cada362d7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 422026, guid: 3b752f5de6ac24473a993c4cada362d7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -121,6 +180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Railway
       objectReference: {fileID: 0}
+    - target: {fileID: 109220, guid: 3b752f5de6ac24473a993c4cada362d7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 422026, guid: 3b752f5de6ac24473a993c4cada362d7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.070003
@@ -182,6 +245,10 @@ PrefabInstance:
     - target: {fileID: 109220, guid: 3b752f5de6ac24473a993c4cada362d7, type: 3}
       propertyPath: m_Name
       value: Railway (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 109220, guid: 3b752f5de6ac24473a993c4cada362d7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 422026, guid: 3b752f5de6ac24473a993c4cada362d7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -245,6 +312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Railway (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 109220, guid: 3b752f5de6ac24473a993c4cada362d7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 422026, guid: 3b752f5de6ac24473a993c4cada362d7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18.310005
@@ -307,6 +378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Railway_Tunnel
       objectReference: {fileID: 0}
+    - target: {fileID: 124946, guid: a30ec7590ae8e438d9635797ece3d2b9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 456152, guid: a30ec7590ae8e438d9635797ece3d2b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.310009
@@ -365,9 +440,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4176926446475248313}
     m_Modifications:
+    - target: {fileID: 100120, guid: eaa70a2c87ce34370814f77ee3b9ebbd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 133512, guid: eaa70a2c87ce34370814f77ee3b9ebbd, type: 3}
       propertyPath: m_Name
       value: Train
+      objectReference: {fileID: 0}
+    - target: {fileID: 133512, guid: eaa70a2c87ce34370814f77ee3b9ebbd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 167252, guid: eaa70a2c87ce34370814f77ee3b9ebbd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 183952, guid: eaa70a2c87ce34370814f77ee3b9ebbd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 480336, guid: eaa70a2c87ce34370814f77ee3b9ebbd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -430,6 +521,10 @@ PrefabInstance:
     - target: {fileID: 178006, guid: 786ec28c374d14e2497e49495de5480a, type: 3}
       propertyPath: m_Name
       value: TrainStationFloor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 178006, guid: 786ec28c374d14e2497e49495de5480a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 467418, guid: 786ec28c374d14e2497e49495de5480a, type: 3}
       propertyPath: m_LocalScale.x
@@ -513,6 +608,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Railway (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 109220, guid: 3b752f5de6ac24473a993c4cada362d7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 422026, guid: 3b752f5de6ac24473a993c4cada362d7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.5800085
@@ -574,6 +673,10 @@ PrefabInstance:
     - target: {fileID: 105794, guid: b79d55d7bb98349c98303697aa543f93, type: 3}
       propertyPath: m_Name
       value: PineTree_Snow_2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 105794, guid: b79d55d7bb98349c98303697aa543f93, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 488560, guid: b79d55d7bb98349c98303697aa543f93, type: 3}
       propertyPath: m_LocalScale.x
@@ -657,6 +760,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TrainStationFloor
       objectReference: {fileID: 0}
+    - target: {fileID: 178006, guid: 786ec28c374d14e2497e49495de5480a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 467418, guid: 786ec28c374d14e2497e49495de5480a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -738,6 +845,10 @@ PrefabInstance:
     - target: {fileID: 105794, guid: b79d55d7bb98349c98303697aa543f93, type: 3}
       propertyPath: m_Name
       value: PineTree_Snow_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 105794, guid: b79d55d7bb98349c98303697aa543f93, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 488560, guid: b79d55d7bb98349c98303697aa543f93, type: 3}
       propertyPath: m_LocalScale.x
@@ -821,6 +932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PineTree_Snow_2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 105794, guid: b79d55d7bb98349c98303697aa543f93, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 488560, guid: b79d55d7bb98349c98303697aa543f93, type: 3}
       propertyPath: m_LocalScale.x
       value: 8
@@ -903,6 +1018,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Railway (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 109220, guid: 3b752f5de6ac24473a993c4cada362d7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 422026, guid: 3b752f5de6ac24473a993c4cada362d7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.530006
@@ -964,6 +1083,10 @@ PrefabInstance:
     - target: {fileID: 145428, guid: 8479ceeab04b940629411485ca70ac04, type: 3}
       propertyPath: m_Name
       value: Floor_Grass_High
+      objectReference: {fileID: 0}
+    - target: {fileID: 145428, guid: 8479ceeab04b940629411485ca70ac04, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 405908, guid: 8479ceeab04b940629411485ca70ac04, type: 3}
       propertyPath: m_RootOrder
@@ -1042,6 +1165,10 @@ PrefabInstance:
     - target: {fileID: 105794, guid: b79d55d7bb98349c98303697aa543f93, type: 3}
       propertyPath: m_Name
       value: PineTree_Snow_2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 105794, guid: b79d55d7bb98349c98303697aa543f93, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 488560, guid: b79d55d7bb98349c98303697aa543f93, type: 3}
       propertyPath: m_LocalScale.x
@@ -1124,6 +1251,10 @@ PrefabInstance:
     - target: {fileID: 109220, guid: 3b752f5de6ac24473a993c4cada362d7, type: 3}
       propertyPath: m_Name
       value: Railway (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 109220, guid: 3b752f5de6ac24473a993c4cada362d7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 422026, guid: 3b752f5de6ac24473a993c4cada362d7, type: 3}
       propertyPath: m_LocalPosition.x

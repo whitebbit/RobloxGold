@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9715e77-c2c6-406d-832c-48bf516b4ade" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/Config/RemoteConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/Config/RemoteConfiguration.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 02.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 06A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 06A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Boosters/BoosterButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Boosters/BoosterButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Config/RemoteConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Config/RemoteConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Config/RemoteConfig.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Config/RemoteConfig.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Debugger/Debugger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Debugger/Debugger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Environment/GoldPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Environment/GoldPlatform.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Environment/Portal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Environment/Portal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Environment/Stage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Environment/Stage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/HealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/HealthBar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerAction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/UI/Scriptable/Shop/ShopItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/UI/Scriptable/Shop/ShopItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Upgrades/UpgradeHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Upgrades/UpgradeHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/5. Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/5. Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/indexLayout.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +120,7 @@
       <workItem from="1716671092286" duration="4205000" />
       <workItem from="1716711678451" duration="132000" />
       <workItem from="1716711843724" duration="5851000" />
-      <workItem from="1716725289630" duration="8494000" />
+      <workItem from="1716725289630" duration="8495000" />
     </task>
     <servers />
   </component>

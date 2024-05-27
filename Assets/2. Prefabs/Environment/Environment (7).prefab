@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4599079927492001020}
+  - component: {fileID: 5119574516312058816}
+  - component: {fileID: 4031693456545563538}
   m_Layer: 0
   m_Name: Environment (7)
   m_TagString: Untagged
@@ -41,6 +43,58 @@ Transform:
   - {fileID: 355335314512856741}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!33 &5119574516312058816
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3932061980992710589}
+  m_Mesh: {fileID: 4300000, guid: 4774b0c7f18733140bc76a0e3fe9bdec, type: 2}
+--- !u!23 &4031693456545563538
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3932061980992710589}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 87a059ac3be574701a4e7eb14e8cf47d, type: 2}
+  - {fileID: 2100000, guid: ea12ef2033f40874896d5b1b833606db, type: 2}
+  - {fileID: 2100000, guid: 29a1f96f12bf10d4aaa5abda2f1e3094, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &355335314513321983
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52,6 +106,10 @@ PrefabInstance:
     - target: {fileID: 123524, guid: ecc1cb3bd4fab4f489993997c27dd81b, type: 3}
       propertyPath: m_Name
       value: Tree_Stripes_Green (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 123524, guid: ecc1cb3bd4fab4f489993997c27dd81b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 465242, guid: ecc1cb3bd4fab4f489993997c27dd81b, type: 3}
       propertyPath: m_LocalScale.x
@@ -135,6 +193,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Stripes_Green
       objectReference: {fileID: 0}
+    - target: {fileID: 123524, guid: ecc1cb3bd4fab4f489993997c27dd81b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 465242, guid: ecc1cb3bd4fab4f489993997c27dd81b, type: 3}
       propertyPath: m_LocalScale.x
       value: 9
@@ -216,6 +278,10 @@ PrefabInstance:
     - target: {fileID: 187526, guid: 3088415821be94ed78c29fd43b8885c6, type: 3}
       propertyPath: m_Name
       value: Spider (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187526, guid: 3088415821be94ed78c29fd43b8885c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 499162, guid: 3088415821be94ed78c29fd43b8885c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -299,6 +365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Stripes_Green (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 123524, guid: ecc1cb3bd4fab4f489993997c27dd81b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 465242, guid: ecc1cb3bd4fab4f489993997c27dd81b, type: 3}
       propertyPath: m_LocalScale.x
       value: 6
@@ -381,6 +451,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Grass_High
       objectReference: {fileID: 0}
+    - target: {fileID: 145428, guid: 8479ceeab04b940629411485ca70ac04, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 405908, guid: 8479ceeab04b940629411485ca70ac04, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -458,6 +532,10 @@ PrefabInstance:
     - target: {fileID: 187526, guid: 3088415821be94ed78c29fd43b8885c6, type: 3}
       propertyPath: m_Name
       value: Spider
+      objectReference: {fileID: 0}
+    - target: {fileID: 187526, guid: 3088415821be94ed78c29fd43b8885c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 499162, guid: 3088415821be94ed78c29fd43b8885c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -541,6 +619,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Stripes_Green (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 123524, guid: ecc1cb3bd4fab4f489993997c27dd81b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 465242, guid: ecc1cb3bd4fab4f489993997c27dd81b, type: 3}
       propertyPath: m_LocalScale.x
       value: 7
@@ -622,6 +704,10 @@ PrefabInstance:
     - target: {fileID: 147852, guid: 78807111ef5164ccabffdcc5635469eb, type: 3}
       propertyPath: m_Name
       value: Chicken
+      objectReference: {fileID: 0}
+    - target: {fileID: 147852, guid: 78807111ef5164ccabffdcc5635469eb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400768, guid: 78807111ef5164ccabffdcc5635469eb, type: 3}
       propertyPath: m_LocalScale.x
@@ -705,6 +791,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat_Tiger
       objectReference: {fileID: 0}
+    - target: {fileID: 109588, guid: 420dd84ffb29d4c85b79a7769cdeb077, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 491516, guid: 420dd84ffb29d4c85b79a7769cdeb077, type: 3}
       propertyPath: m_LocalScale.x
       value: 7
@@ -786,6 +876,10 @@ PrefabInstance:
     - target: {fileID: 194104, guid: 4f1abbcb78ada4d6191a4e8ae6a610fc, type: 3}
       propertyPath: m_Name
       value: Pig
+      objectReference: {fileID: 0}
+    - target: {fileID: 194104, guid: 4f1abbcb78ada4d6191a4e8ae6a610fc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 436924, guid: 4f1abbcb78ada4d6191a4e8ae6a610fc, type: 3}
       propertyPath: m_LocalScale.x

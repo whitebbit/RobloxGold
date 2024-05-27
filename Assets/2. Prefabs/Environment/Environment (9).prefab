@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2043368116961223357}
+  - component: {fileID: 3374569460873111230}
+  - component: {fileID: 912047116653693562}
   m_Layer: 0
   m_Name: Environment (9)
   m_TagString: Untagged
@@ -48,6 +50,59 @@ Transform:
   - {fileID: 6967631756028447420}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!33 &3374569460873111230
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2836912827668003169}
+  m_Mesh: {fileID: 4300000, guid: 42849ea8f7a975e4db14ed92860d27d6, type: 2}
+--- !u!23 &912047116653693562
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2836912827668003169}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 87a059ac3be574701a4e7eb14e8cf47d, type: 2}
+  - {fileID: 2100000, guid: 29a1f96f12bf10d4aaa5abda2f1e3094, type: 2}
+  - {fileID: 2100000, guid: ea12ef2033f40874896d5b1b833606db, type: 2}
+  - {fileID: 2100000, guid: fb1377c6c3a6a410bbeea9b5ff5fdd79, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &331443468468781647
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59,6 +114,10 @@ PrefabInstance:
     - target: {fileID: 120144, guid: d5401113bd3ec43afbd00283916fb8a8, type: 3}
       propertyPath: m_Name
       value: Field (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 120144, guid: d5401113bd3ec43afbd00283916fb8a8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 445340, guid: d5401113bd3ec43afbd00283916fb8a8, type: 3}
       propertyPath: m_LocalScale.x
@@ -142,6 +201,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Field (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 120144, guid: d5401113bd3ec43afbd00283916fb8a8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 445340, guid: d5401113bd3ec43afbd00283916fb8a8, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -223,6 +286,10 @@ PrefabInstance:
     - target: {fileID: 120144, guid: d5401113bd3ec43afbd00283916fb8a8, type: 3}
       propertyPath: m_Name
       value: Field (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 120144, guid: d5401113bd3ec43afbd00283916fb8a8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 445340, guid: d5401113bd3ec43afbd00283916fb8a8, type: 3}
       propertyPath: m_LocalScale.x
@@ -306,6 +373,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Field
       objectReference: {fileID: 0}
+    - target: {fileID: 120144, guid: d5401113bd3ec43afbd00283916fb8a8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 445340, guid: d5401113bd3ec43afbd00283916fb8a8, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -388,6 +459,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Grass_High
       objectReference: {fileID: 0}
+    - target: {fileID: 145428, guid: 8479ceeab04b940629411485ca70ac04, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 405908, guid: 8479ceeab04b940629411485ca70ac04, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -465,6 +540,10 @@ PrefabInstance:
     - target: {fileID: 111312, guid: c78dc63e651bf4ec3bc681c6c2018739, type: 3}
       propertyPath: m_Name
       value: Crops_Wheat (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 111312, guid: c78dc63e651bf4ec3bc681c6c2018739, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 469030, guid: c78dc63e651bf4ec3bc681c6c2018739, type: 3}
       propertyPath: m_LocalScale.x
@@ -548,6 +627,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crops_Corn
       objectReference: {fileID: 0}
+    - target: {fileID: 102898, guid: 5189782ac8d494338a5e8fd8dfe7d8ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 474260, guid: 5189782ac8d494338a5e8fd8dfe7d8ad, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -629,6 +712,10 @@ PrefabInstance:
     - target: {fileID: 129960, guid: a0072c8906ca84f788e44d58e79e130e, type: 3}
       propertyPath: m_Name
       value: Crops_GreenPlants
+      objectReference: {fileID: 0}
+    - target: {fileID: 129960, guid: a0072c8906ca84f788e44d58e79e130e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 404796, guid: a0072c8906ca84f788e44d58e79e130e, type: 3}
       propertyPath: m_LocalScale.x
@@ -712,6 +799,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Field (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 120144, guid: d5401113bd3ec43afbd00283916fb8a8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 445340, guid: d5401113bd3ec43afbd00283916fb8a8, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -793,6 +884,10 @@ PrefabInstance:
     - target: {fileID: 129960, guid: a0072c8906ca84f788e44d58e79e130e, type: 3}
       propertyPath: m_Name
       value: Crops_GreenPlants (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 129960, guid: a0072c8906ca84f788e44d58e79e130e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 404796, guid: a0072c8906ca84f788e44d58e79e130e, type: 3}
       propertyPath: m_LocalScale.x
@@ -876,6 +971,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Field (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 120144, guid: d5401113bd3ec43afbd00283916fb8a8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 445340, guid: d5401113bd3ec43afbd00283916fb8a8, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -957,6 +1056,10 @@ PrefabInstance:
     - target: {fileID: 102898, guid: 5189782ac8d494338a5e8fd8dfe7d8ad, type: 3}
       propertyPath: m_Name
       value: Crops_Corn (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 102898, guid: 5189782ac8d494338a5e8fd8dfe7d8ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 474260, guid: 5189782ac8d494338a5e8fd8dfe7d8ad, type: 3}
       propertyPath: m_LocalScale.x
@@ -1040,6 +1143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crops_Wheat
       objectReference: {fileID: 0}
+    - target: {fileID: 111312, guid: c78dc63e651bf4ec3bc681c6c2018739, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 469030, guid: c78dc63e651bf4ec3bc681c6c2018739, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -1121,6 +1228,10 @@ PrefabInstance:
     - target: {fileID: 120144, guid: d5401113bd3ec43afbd00283916fb8a8, type: 3}
       propertyPath: m_Name
       value: Field (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 120144, guid: d5401113bd3ec43afbd00283916fb8a8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 445340, guid: d5401113bd3ec43afbd00283916fb8a8, type: 3}
       propertyPath: m_LocalScale.x
@@ -1204,6 +1315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crops_Corn (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 102898, guid: 5189782ac8d494338a5e8fd8dfe7d8ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 474260, guid: 5189782ac8d494338a5e8fd8dfe7d8ad, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -1286,6 +1401,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoadEnd_Sign
       objectReference: {fileID: 0}
+    - target: {fileID: 147298, guid: 173580fad93ff462ebfa8d0bd0c16233, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 452878, guid: 173580fad93ff462ebfa8d0bd0c16233, type: 3}
       propertyPath: m_LocalScale.x
       value: 22.0845
@@ -1363,6 +1482,10 @@ PrefabInstance:
     - target: {fileID: 102898, guid: 5189782ac8d494338a5e8fd8dfe7d8ad, type: 3}
       propertyPath: m_Name
       value: Crops_Corn (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 102898, guid: 5189782ac8d494338a5e8fd8dfe7d8ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 474260, guid: 5189782ac8d494338a5e8fd8dfe7d8ad, type: 3}
       propertyPath: m_LocalScale.x
