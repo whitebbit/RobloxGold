@@ -214,6 +214,7 @@
           <e p="Wallet" t="Include">
             <e p="WalletManager.cs" t="Include" />
           </e>
+          <e p="WebGLSaver.cs" t="Include" />
         </e>
         <e p="7. Imported Assets" t="Include">
           <e p="CartoonTown-LowPolyAssets" t="Include">

@@ -2,50 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9715e77-c2c6-406d-832c-48bf516b4ade" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/Ads.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/Ads/InterstitialsTimer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/Ads/InterstitialsTimer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/LoadRotator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/LoadRotator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/WebGLSaver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/WebGLSaver.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 02.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 05A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 05A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 06A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/Gold Items/Chest 06A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Config/Configuration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Config/Configuration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Config/RemoteConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Config/RemoteConfiguration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Environment/GoldPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Environment/GoldPlatform.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Environment/Stage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Environment/Stage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Environment/StageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Environment/StageController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/HealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/HealthBar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Loader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Loader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Pets/PetUnlocker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Pets/PetUnlocker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Sounds/SoundControllersButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Sounds/SoundControllersButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/UI/Elements/GiftSlot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/UI/Elements/GiftSlot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/FreeGiftsPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/FreeGiftsPanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/UI/Scriptable/Roulette/CurrencyGiftItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/UI/Scriptable/Roulette/CurrencyGiftItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/5. Scenes/Loader.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/5. Scenes/Loader.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/5. Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/5. Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Localization/Localization Shared Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Localization/Localization Shared Data.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Localization/Localization_en.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Localization/Localization_en.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Localization/Localization_ru.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Localization/Localization_ru.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/Day01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/Day01.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/Day02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/Day02.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/Day02b.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/Day02b.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/Day03.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/Day03.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/Day04.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/Day04.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/evening01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/evening01.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/evening02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/evening02.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/night01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/night01.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/night02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/night02.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/night03.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/night03.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/night04.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/7. Imported Assets/Polygrade/Toon Skyboxes/textures/night04.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Y. Imported Assets/FlatKit/[Render Pipeline] URP/ExampleSettings/[FlatKit] Example Settings URP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Y. Imported Assets/FlatKit/[Render Pipeline] URP/ExampleSettings/[FlatKit] Example Settings URP.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/GBGamesSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/GBGamesSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/Scripts/Advertisement/AdvertisementGB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/Scripts/Advertisement/AdvertisementGB.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +22,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Saves/WalletSave.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/ShopPanel.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Characters/Character.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/OpenStageButton.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Boosters/BoosterStateButton.cs" />
@@ -92,7 +51,6 @@
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Player/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Boosters/BoosterButton.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Effects/DamageCounterEffect.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Inputs/Utils/FixedTouchField.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Inputs/InputHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/HealthBar.cs" />
@@ -112,6 +70,9 @@
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Ads/IntertitialTimer.cs" />
       <option value="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/Scripts/Advertisement/AdvertisementGB.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Ads/InterstitialsTimer.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/WebGLSaver.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Elements/PetBooster.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2goPp64ixzxJjJZjmiAsQUXExkm" />
@@ -172,7 +133,7 @@
       <workItem from="1716802822936" duration="3777000" />
       <workItem from="1716816044145" duration="4103000" />
       <workItem from="1716826578129" duration="21000" />
-      <workItem from="1716877315221" duration="6330000" />
+      <workItem from="1716877315221" duration="7833000" />
     </task>
     <servers />
   </component>

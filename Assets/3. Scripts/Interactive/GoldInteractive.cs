@@ -33,7 +33,6 @@ namespace _3._Scripts.Interactive
         public void Interact()
         {
             TakeDamage();
-            
         }
 
         private void SetAmount()
@@ -53,10 +52,10 @@ namespace _3._Scripts.Interactive
 
             var damage = GetDamage();
             if (damage <= 0) return;
-            
+
             var damageObj = EffectPanel.Instance.SpawnEffect(damageEffect);
             damageObj.Initialize(damage);
-            
+
             UpdateWallet(damage);
             DoShake();
             ResetObject();
@@ -92,7 +91,7 @@ namespace _3._Scripts.Interactive
                 transform.DOScale(scale, 0.25f).SetDelay(RemoteConfiguration.GoldRespawn).SetEase(Ease.OutBack)
                     .OnComplete(SetAmount);
             }).SetEase(Ease.InBack);
-            
+
             WalletManager.ThirdCurrency += GoldAmount;
             CreateEffect(GoldAmount);
         }
@@ -112,9 +111,11 @@ namespace _3._Scripts.Interactive
         private int GetDamage()
         {
             var x2 = BoostersHandler.Instance.X2Currency ? 2 : 1;
-            var pets = Configuration.Instance.AllPets.Where(p => GBGames.saves.petSaves.IsCurrent(p.ID)).ToList();
-            var strength = (int) Math.Ceiling(WalletManager.FirstCurrency + pets.Sum(p => p.Booster));
-            return strength * x2;
+            var pets = Configuration.Instance.AllPets.Where(p => GBGames.saves.petSaves.IsCurrent(p.ID)).ToList()
+                .Sum(p => p.Booster);
+            var strength = WalletManager.FirstCurrency;
+            var result = (int) Math.Ceiling(strength + strength * (pets / 100));
+            return result * x2;
         }
     }
 }
