@@ -38,6 +38,11 @@ namespace _3._Scripts.UI.Elements
             receivedText.gameObject.SetActive(false);
         }
 
+        public void UpdateTitle()
+        {
+            title.text = string.IsNullOrEmpty(_currentItem.Title()) ? "" : $"x{_currentItem.Title()}";
+        }
+        
         private void GetReward()
         {
             if (!timer.TimerEnd()) return;

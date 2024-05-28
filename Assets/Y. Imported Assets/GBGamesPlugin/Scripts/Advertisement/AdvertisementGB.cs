@@ -1,4 +1,5 @@
 ﻿using System;
+using _3._Scripts.Environment;
 using InstantGamesBridge;
 using InstantGamesBridge.Modules.Advertisement;
 using InstantGamesBridge.Modules.Device;
@@ -8,6 +9,9 @@ namespace GBGamesPlugin
 {
     public partial class GBGames
     {
+        public static bool NowAdsShow =>
+            interstitialState == InterstitialState.Opened || rewardedState == RewardedState.Opened; 
+        
         #region Banner
 
         /// <summary>

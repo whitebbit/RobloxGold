@@ -26,7 +26,7 @@ namespace _3._Scripts.Sounds
         private void ChangeSoundState(bool state)
         {
             GBGames.saves.sound = state;
-            AudioListener.pause = !state;
+            AudioListener.volume = state ? 1 : 0;
             image.sprite = state ? on : off;
             GBGames.instance.Save();
         }

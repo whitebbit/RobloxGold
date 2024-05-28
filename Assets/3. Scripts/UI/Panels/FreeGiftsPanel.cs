@@ -18,6 +18,13 @@ namespace _3._Scripts.UI.Panels
                 slot.Initialize();
             }
         }
-        
+
+        protected override void OnOpen()
+        {
+            foreach (var slot in slots)
+            {
+                slot.UpdateTitle();
+            }
+        }
     }
 }

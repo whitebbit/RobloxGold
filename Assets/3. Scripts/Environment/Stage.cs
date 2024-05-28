@@ -2,32 +2,46 @@
 using System.Linq;
 using _3._Scripts.Config;
 using _3._Scripts.Currency.Enums;
+using _3._Scripts.Interactive;
 using _3._Scripts.Wallet;
 using DG.Tweening;
 using GBGamesPlugin;
 using UnityEngine;
+using UnityEngine.Localization.SmartFormat.PersistentVariables;
 using VInspector;
 
 namespace _3._Scripts.Environment
 {
     public class Stage : MonoBehaviour
     {
+        [Tab("Settings")]
         [SerializeField] private int id;
         [SerializeField] private int unlockPrice;
-        [Tab("Components")] [SerializeField] private Transform spawnPoint;
-        [Tab("Doors")] [SerializeField] private Collider doorCollider;
+        [SerializeField] private float multiplier;
+        [Tab("Components")] 
+        [SerializeField] private Transform spawnPoint;
+        [Tab("Doors")] 
+        [SerializeField] private Collider doorCollider;
         [SerializeField] private Transform rightDoor;
         [SerializeField] private Transform leftDoor;
         [SerializeField] private float doorRotation;
 
+        public float Multiplier => multiplier;
         public bool Opened => GBGames.saves.stageID >= id;
         public bool Unlocked => GBGames.saves.stageID + 1 >= id;
         public int UnlockPrice => (int) Math.Ceiling(unlockPrice * RemoteConfiguration.StagePriceMultiplier);
-
         public int ID => id;
         public Transform SpawnPoint => spawnPoint;
 
-
+        private void Awake()
+        {
+            var l = GetComponentsInChildren<GoldInteractive>().ToList();
+            foreach (var item in l)
+            {
+                item.Multiplier = multiplier + RemoteConfiguration.StageAdditionalMultiplier;
+            }
+        }
+        
         private void OnValidate()
         {
             name = $"Stage_{id}";

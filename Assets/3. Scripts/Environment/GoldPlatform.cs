@@ -14,7 +14,6 @@ namespace _3._Scripts.Environment
 {
     public class GoldPlatform : MonoBehaviour
     {
-        [SerializeField] private float multiplier;
         [SerializeField] private LocalizeStringEvent recommendation;
 
         private List<GoldInteractive> _goldInteractive = new();
@@ -22,17 +21,21 @@ namespace _3._Scripts.Environment
         private void Awake()
         {
             _goldInteractive = GetComponentsInChildren<GoldInteractive>().ToList();
-            foreach (var item in _goldInteractive)
-            {
-                item.Multiplier = multiplier + RemoteConfiguration.StageAdditionalMultiplier;
-            }
+
         }
 
         private void Start()
         {
-            var req = _goldInteractive.Sum(g => g.GoldAmount) / _goldInteractive.Count * 0.5f;
-            var stringReference = recommendation.StringReference;
-            if (stringReference["amount"] is IntVariable variables) variables.Value = (int) req;
+
+            if (_goldInteractive != null)
+            {
+                var sum = _goldInteractive.Sum(g => g.GoldAmount);
+
+                var req = sum / _goldInteractive.Count * 0.5f;
+                var stringReference = recommendation.StringReference;
+                if (stringReference["amount"] is IntVariable variables) variables.Value = (int) req;
+            }
+
             recommendation.RefreshString();
         }
     }

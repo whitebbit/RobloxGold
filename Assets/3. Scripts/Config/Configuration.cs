@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using _3._Scripts.Characters;
 using _3._Scripts.Currency.Enums;
@@ -7,7 +8,9 @@ using _3._Scripts.Pets.Scriptables;
 using _3._Scripts.Singleton;
 using _3._Scripts.Sounds.Scriptable;
 using _3._Scripts.UI.Scriptable.Shop;
+using GBGamesPlugin;
 using UnityEngine;
+using UnityEngine.Localization.Settings;
 using UnityEngine.Serialization;
 
 namespace _3._Scripts.Config
@@ -28,5 +31,10 @@ namespace _3._Scripts.Config
 
         public IEnumerable<TrailItem> AllTrails => allTrails;
         public CurrencyData GetCurrency(CurrencyType type) => currencyData.FirstOrDefault(c => c.Type == type);
+
+        private void Start()
+        {
+            GBGames.GameReady();
+        }
     }
 }

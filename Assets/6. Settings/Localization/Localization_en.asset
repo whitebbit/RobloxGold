@@ -112,10 +112,15 @@ MonoBehaviour:
     m_Localized: Practice
     m_Metadata:
       m_Items: []
+  - m_Id: 4498701968089088
+    m_Localized: Advertising through {value}
+    m_Metadata:
+      m_Items:
+      - rid: 5461703598771798026
   references:
     version: 2
     RefIds:
     - rid: 5461703598771798026
       type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
       data:
-        m_Entries: 0020c29a51030a00
+        m_Entries: 0020c29a51030a000020c2ac8bfb0f00
