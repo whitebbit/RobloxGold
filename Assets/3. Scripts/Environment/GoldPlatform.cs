@@ -31,7 +31,7 @@ namespace _3._Scripts.Environment
             {
                 var sum = _goldInteractive.Sum(g => g.GoldAmount);
 
-                var req = sum / _goldInteractive.Count * 0.5f;
+                var req = sum / _goldInteractive.Count * 0.75f;
                 var stringReference = recommendation.StringReference;
                 if (stringReference["amount"] is IntVariable variables) variables.Value = (int) req;
             }

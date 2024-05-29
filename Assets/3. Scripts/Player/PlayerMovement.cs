@@ -46,7 +46,12 @@ namespace _3._Scripts.Player
         private void Update()
         {
             ResetVelocity();
-            if (UIManager.Instance.Active) return;
+            if (UIManager.Instance.Active)
+            {
+                _animator.SetSpeed(0);
+                SetCameraInputAxis(Vector2.zero);
+                return;
+            }
 
             Move();
             Jump();
@@ -67,7 +72,6 @@ namespace _3._Scripts.Player
             var moveDirection = Quaternion.Euler(0, targetAngle, 0) * Vector3.forward;
 
             transform.rotation = Quaternion.Euler(0, angle, 0);
-            //var boost = BoostersHandler.Instance.SpeedBoosted ? SpeedMultiplier : 1;
             _characterController.Move(moveDirection * speed * SpeedMultiplier * Time.deltaTime);
             PlayFootstepSound();
         }

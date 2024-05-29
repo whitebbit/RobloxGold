@@ -5,9 +5,9 @@ namespace GBGamesPlugin
     public static class PauseController
     {
         private static bool _audioPause;
-        private static float _timeScale;
-        private static CursorLockMode _cursorLockMode;
-        private static bool _cursorVisible;
+        private static float _timeScale = 1;
+        private static CursorLockMode _cursorLockMode = CursorLockMode.None;
+        private static bool _cursorVisible = true;
 
         public static void Pause(bool state)
         {

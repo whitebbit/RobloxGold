@@ -17,11 +17,15 @@ namespace _3._Scripts.Environment
         [SerializeField] private ObjectButton adBuy;
         [Tab("Texts")] [SerializeField] private TMP_Text priceText;
 
-        private static int Price => (int)Math.Round(WalletManager.ThirdCurrency * 0.25f, MidpointRounding.AwayFromZero);
+        private static int Price()
+        {
+            var value = (int) Math.Round(WalletManager.ThirdCurrency * 0.25f, MidpointRounding.AwayFromZero);
+            return value <= 0 ? 100 : value;
+        }
 
         private void Start()
         {
-            priceText.text = WalletManager.ConvertToWallet(Price);
+            priceText.text = WalletManager.ConvertToWallet(Price());
 
             coinsBuy.OnClick += Buy;
             adBuy.OnClick += Ad;
@@ -35,7 +39,7 @@ namespace _3._Scripts.Environment
 
         private void Buy()
         {
-            if (!WalletManager.TrySpend(CurrencyType.Third, Price)) return;
+            if (!WalletManager.TrySpend(CurrencyType.Third, Price())) return;
 
             Teleport();
         }
@@ -49,7 +53,7 @@ namespace _3._Scripts.Environment
         {
             WalletManager.OnThirdCurrencyChange += (_, _) =>
             {
-                priceText.text = WalletManager.ConvertToWallet(Price);
+                priceText.text = WalletManager.ConvertToWallet(Price());
             };
         }
     }

@@ -2,11 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9715e77-c2c6-406d-832c-48bf516b4ade" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/WebGLSaver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/WebGLSaver.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1. Visual/Sprites/en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1. Visual/Sprites/en.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1. Visual/fonovaya-muzyika-dlya-detskoy-igrovoy-komnatyi-979.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1. Visual/fonovaya-muzyika-dlya-detskoy-igrovoy-komnatyi-979.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/Environment/FirstPortalEnabler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3. Scripts/Environment/FirstPortalEnabler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Y. Imported Assets/Epic Toon FX/Upgrade/ETFX 2019.3 URP Fix.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Y. Imported Assets/Epic Toon FX/Upgrade/ETFX Standard Materials.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Y. Imported Assets/FlatKit/[Render Pipeline] Built-In.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Y. Imported Assets/FlatKit/[Render Pipeline] Universal (URP).unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Y. Imported Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/ItemIcons(x2).unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Y. Imported Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_PictoIcons(x2)/PictoIcons(x2).unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Y. Imported Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_RuneIcons(x2)/RuneIcons(x2).unitypackage.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/UI/Slot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/UI/Slot.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Prefabs/UI/Wallet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Prefabs/UI/Wallet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Currency/CurrencyWidget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Currency/CurrencyWidget.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Environment/GoldPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Environment/GoldPlatform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Environment/Portal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Environment/Portal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/LoadRotator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/LoadRotator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Pets/PetUnlocker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Pets/PetUnlocker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/5. Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/5. Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Y. Imported Assets/Epic Toon FX/Upgrade/ETFX 2019.2.3f1 LWRP Upgrade.unitypackage.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/GBGamesSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/GBGamesSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/Scripts/Advertisement/AdvertisementGB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/Scripts/Advertisement/AdvertisementGB.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/Scripts/GBGames.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/Scripts/GBGames.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/Scripts/Utils/PauseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/Scripts/Utils/PauseController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,17 +48,12 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Characters/Character.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/OpenStageButton.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Boosters/BoosterStateButton.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Boosters/BoostersHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/Enums/PortalType.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/ObjectButton.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/TrailsShop.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerAnimator.cs" />
       <option value="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/Scripts/Storage/SavesGB.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Interactive/TrainingInteractive.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/HelthBar.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Upgrades/Enum/GloveType.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Scriptable/Shop/UpgradeItem.cs" />
@@ -44,7 +65,6 @@
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Scriptable/Shop/ShopItem.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Debugger/Debugger.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerAction.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/Portal.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Config/RemoteConfigValue.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Config/RemoteConfig.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Upgrades/UpgradeHandler.cs" />
@@ -56,23 +76,29 @@
       <option value="$PROJECT_DIR$/Assets/3. Scripts/HealthBar.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Elements/ShopSlot.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Loader.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Pets/PetUnlocker.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Sounds/SoundControllersButton.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/GoldPlatform.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/Stage.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/StageController.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Scriptable/Roulette/CurrencyGiftItem.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Elements/GiftSlot.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/FreeGiftsPanel.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Config/Configuration.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/LoadRotator.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Config/RemoteConfiguration.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Ads/IntertitialTimer.cs" />
-      <option value="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/Scripts/Advertisement/AdvertisementGB.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Ads/InterstitialsTimer.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/WebGLSaver.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Elements/PetBooster.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Currency/CurrencyWidget.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/GoldPlatform.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Pets/PetUnlocker.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/LoadRotator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/Scripts/Utils/PauseController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/Scripts/Advertisement/AdvertisementGB.cs" />
+      <option value="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/Scripts/GBGames.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/FirstPortalEnabler.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/Portal.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2goPp64ixzxJjJZjmiAsQUXExkm" />
@@ -133,7 +159,9 @@
       <workItem from="1716802822936" duration="3777000" />
       <workItem from="1716816044145" duration="4103000" />
       <workItem from="1716826578129" duration="21000" />
-      <workItem from="1716877315221" duration="7833000" />
+      <workItem from="1716877315221" duration="11196000" />
+      <workItem from="1716904241853" duration="2909000" />
+      <workItem from="1716965692583" duration="2323000" />
     </task>
     <servers />
   </component>

@@ -37,9 +37,9 @@ namespace _3._Scripts.Pets
             return GBGames.saves.petSaves.unlocked.Count switch
             {
                 <= 0 => 1,
-                >0 and <10 => 2,
-                >=10 and <15 => 2,
-                >= 15 => 3
+                >0 and <10 => 5,
+                >=10 and <15 => 10,
+                >= 15 => 15
             };
         }
 

@@ -8,7 +8,8 @@ namespace _3._Scripts
     {
         private void Start()
         {
-            transform.DORotate(new Vector3(0,0 , 360), 1, RotateMode.FastBeyond360).SetRelative(true);
+            transform.DORotate(new Vector3(0, 0, 360), 1, RotateMode.FastBeyond360).SetRelative(true).SetLoops(-1)
+                .SetEase(Ease.Linear);
         }
     }
 }

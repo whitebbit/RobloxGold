@@ -10,8 +10,8 @@ namespace GBGamesPlugin
     public partial class GBGames
     {
         public static bool NowAdsShow =>
-            interstitialState == InterstitialState.Opened || rewardedState == RewardedState.Opened; 
-        
+            interstitialState == InterstitialState.Opened || rewardedState == RewardedState.Opened;
+
         #region Banner
 
         /// <summary>
@@ -122,17 +122,11 @@ namespace GBGamesPlugin
                     FullAdInEditor();
 #endif
                     Message("Interstitial state - opened");
-                    if (!_isFirstInterstitial)
+                    if (_inGame)
                         PauseController.Pause(true);
                     break;
                 case InterstitialState.Closed:
-                    if (!_isFirstInterstitial)
-                    {
-                        PauseController.Pause(false);
-                    }
-                    else
-                        _isFirstInterstitial = false;
-
+                    PauseController.Pause(false);
                     InterstitialClosedCallback?.Invoke();
                     Message("Interstitial state - closed");
                     break;
@@ -192,10 +186,12 @@ namespace GBGamesPlugin
                     break;
                 case RewardedState.Closed:
                     PauseController.Pause(false);
+                    RewardedCallback = null;
                     RewardedClosedCallback?.Invoke();
                     Message("Rewarded state - closed");
                     break;
                 case RewardedState.Failed:
+                    RewardedCallback = null;
                     RewardedFailedCallback?.Invoke();
                     Message("Rewarded state - failed");
                     break;

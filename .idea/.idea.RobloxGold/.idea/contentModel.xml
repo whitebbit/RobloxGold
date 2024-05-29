@@ -61,6 +61,7 @@
             <e p="Enums" t="Include">
               <e p="PortalType.cs" t="Include" />
             </e>
+            <e p="FirstPortalEnabler.cs" t="Include" />
             <e p="GoldPlatform.cs" t="Include" />
             <e p="OpenStageButton.cs" t="Include" />
             <e p="Portal.cs" t="Include" />

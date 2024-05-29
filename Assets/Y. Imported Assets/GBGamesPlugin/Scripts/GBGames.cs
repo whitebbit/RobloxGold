@@ -10,7 +10,8 @@ namespace GBGamesPlugin
     {
         public static GBGames instance { get; private set; }
         public GBGamesSettings settings;
-        
+
+        private static bool _inGame;
         private void Awake()
         {
             StartCoroutine(Initialize());
@@ -18,6 +19,7 @@ namespace GBGamesPlugin
 
         private IEnumerator Initialize()
         {
+            _inGame = true;
             Singleton();
             yield return new WaitUntil(() => Bridge.instance != null && Bridge.initialized);
             Storage();
@@ -27,7 +29,7 @@ namespace GBGamesPlugin
             Player();
             Game();
         }
-        
+
         private void Singleton()
         {
             transform.SetParent(null);
