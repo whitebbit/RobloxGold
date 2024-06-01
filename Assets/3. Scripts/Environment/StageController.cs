@@ -9,20 +9,12 @@ namespace _3._Scripts.Environment
 {
     public class StageController : Singleton<StageController>
     {
+        [SerializeField] private List<Stage> stages = new();
         [SerializeField] private float viewDistance = 100;
-
-        private List<Stage> _stages = new();
-
-
-        protected override void OnAwake()
-        {
-            base.OnAwake();
-            _stages = GetComponentsInChildren<Stage>().ToList();
-        }
-
+        
         private void Start()
         {
-            foreach (var stage in _stages)
+            foreach (var stage in stages)
             {
                 stage.Initialize();
             }
@@ -36,8 +28,8 @@ namespace _3._Scripts.Environment
 
         private void SetStagesVisibility()
         {
-            var stages = _stages.Where(s => s.Unlocked);
-            foreach (var stage in stages)
+            var s = stages.Where(stage => stage.Unlocked);
+            foreach (var stage in s)
             {
                 var distance = Vector3.Distance(Player.Player.Instance.transform.position, stage.transform.position);
 
@@ -47,19 +39,19 @@ namespace _3._Scripts.Environment
 
         public float GetStageMultiplier(int id)
         {
-            var first = _stages.FirstOrDefault(s => s.ID == id);
+            var first = stages.FirstOrDefault(s => s.ID == id);
 
             return first == null ? 1 : first.Multiplier;
         }
 
         public void UnlockStage(int id)
         {
-            _stages.FirstOrDefault(s => s.ID == id)?.SetVisibility(true);
+            stages.FirstOrDefault(s => s.ID == id)?.SetVisibility(true);
         }
 
         public Vector3 GetSpawnPoint(int id)
         {
-            var first = _stages.FirstOrDefault(s => s.ID == id);
+            var first = stages.FirstOrDefault(s => s.ID == id);
 
             return first == null ? Vector3.zero : first.SpawnPoint.position;
         }

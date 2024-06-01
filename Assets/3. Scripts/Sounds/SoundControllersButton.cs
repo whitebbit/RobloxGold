@@ -1,6 +1,7 @@
 ﻿using System;
 using GBGamesPlugin;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 namespace _3._Scripts.Sounds
@@ -29,6 +30,7 @@ namespace _3._Scripts.Sounds
             AudioListener.volume = state ? 1 : 0;
             image.sprite = state ? on : off;
             GBGames.instance.Save();
+            EventSystem.current.SetSelectedGameObject(null);
         }
     }
 }

@@ -48,6 +48,7 @@ namespace _3._Scripts.Player
             ResetVelocity();
             if (UIManager.Instance.Active)
             {
+                _input.CursorState();
                 _animator.SetSpeed(0);
                 SetCameraInputAxis(Vector2.zero);
                 return;

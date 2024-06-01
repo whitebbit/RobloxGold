@@ -27,19 +27,40 @@ namespace _3._Scripts.Ads
         private void OnEnable()
         {
             GBGames.InterstitialClosedCallback += OnInterstitialClosedCallback;
+            GBGames.InterstitialOpenedCallback += OnInterstitialOpenedCallback;
+            GBGames.InterstitialFailedCallback += OnInterstitialFailedCallback;
         }
 
+        
+        
         private void OnDisable()
         {
             GBGames.InterstitialClosedCallback -= OnInterstitialClosedCallback;
+            GBGames.InterstitialOpenedCallback -= OnInterstitialOpenedCallback;
+            GBGames.InterstitialFailedCallback -= OnInterstitialFailedCallback;
         }
-
-        private void OnInterstitialClosedCallback()
+        
+        private void OnInterstitialFailedCallback()
+        {
+            _objSecCounter = 0;
+            UIManager.Instance.Active = false;
+            secondsPanelObject.SetActive(false);
+            StopAllCoroutines();
+            StartCoroutine(CheckTimerAd());
+        }
+        private void OnInterstitialOpenedCallback()
         {
             secondsPanelObject.SetActive(false);
+        }
+        
+        private void OnInterstitialClosedCallback()
+        {
+            PauseController.Pause(false);
             _objSecCounter = 0;
             UIManager.Instance.Active = false;
 
+            secondsPanelObject.SetActive(false);
+            
             StopAllCoroutines();
             StartCoroutine(CheckTimerAd());
         }
@@ -83,6 +104,7 @@ namespace _3._Scripts.Ads
                 if (_objSecCounter > 0) continue;
 
                 process = false;
+                StopAllCoroutines();
                 StartCoroutine(BackupTimerClosure());
                 GBGames.ShowInterstitial();
             }
@@ -92,11 +114,12 @@ namespace _3._Scripts.Ads
         private IEnumerator BackupTimerClosure()
         {
             yield return new WaitForSeconds(5f);
+            PauseController.Pause(false);
 
             secondsPanelObject.SetActive(false);
             _objSecCounter = 3;
             UIManager.Instance.Active = false;
-
+            
             StopAllCoroutines();
             StartCoroutine(CheckTimerAd());
         }

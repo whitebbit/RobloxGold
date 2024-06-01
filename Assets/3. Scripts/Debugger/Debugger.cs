@@ -45,9 +45,9 @@ namespace _3._Scripts.Debugger
 
         public void Save() => GBGames.instance.Save();
         public void DeleteSaves() => GBGames.Delete();
-        public void UnlockPet() => GBGames.saves.petSaves.Unlock(petInputField.text);
+        public void UnlockPet() => GBGames.saves.stageID = -1;
         public void UnlockTrail() => GBGames.saves.trailSaves.Unlock(trailInputField.text);
-        public void Add1000FirstCurrency() => WalletManager.FirstCurrency += 100;
+        public void Add1000FirstCurrency() => WalletManager.FirstCurrency = 1;
         public void Add1000SecondCurrency() => WalletManager.ThirdCurrency += 10000;
 
         public void UnlockRandomTrail()

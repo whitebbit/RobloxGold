@@ -9,7 +9,7 @@ namespace GBGamesPlugin
             if (GBGames.instance.settings.gameLoadingCallbacksOnSceneLoading)
                 GBGames.InGameLoadingStarted();
             
-            SceneManager.LoadScene(name);
+            SceneManager.LoadSceneAsync(name);
         }
 
         public static void LoadScene(int id)
@@ -17,7 +17,7 @@ namespace GBGamesPlugin
             if (GBGames.instance.settings.gameLoadingCallbacksOnSceneLoading)
                 GBGames.InGameLoadingStarted();
             
-            SceneManager.LoadScene(id);
+            SceneManager.LoadSceneAsync(id);
         }
     }
 }

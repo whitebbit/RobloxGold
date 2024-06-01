@@ -1,6 +1,7 @@
 using _3._Scripts.UI.Interfaces;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 namespace _3._Scripts.UI
 {
@@ -19,11 +20,15 @@ namespace _3._Scripts.UI
                 if (value)
                 {
                     UIManager.Instance.Active = true;
+                    EventSystem.current.SetSelectedGameObject(null);
+
                     Open();
                 }
                 else
                 {
                     UIManager.Instance.Active = false;
+                    EventSystem.current.SetSelectedGameObject(null);
+
                     Close();
                 }
             }
