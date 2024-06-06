@@ -1,135 +1,148 @@
-using System;
 using System.Collections;
 using _3._Scripts.Config;
+using _3._Scripts.Singleton;
 using _3._Scripts.UI;
+using _3._Scripts.UI.Panels;
 using GBGamesPlugin;
-using TMPro;
 using UnityEngine;
 using UnityEngine.Localization.Components;
 using UnityEngine.Localization.SmartFormat.PersistentVariables;
+using UnityEngine.Serialization;
 
 namespace _3._Scripts.Ads
 {
-    public class InterstitialsTimer : MonoBehaviour
+    public class InterstitialsTimer : Singleton<InterstitialsTimer>
     {
         [SerializeField] private GameObject secondsPanelObject;
-        [SerializeField] private LocalizeStringEvent text;
-        private int _objSecCounter = 3;
-
+        [SerializeField] private LocalizeStringEvent localizedText;
+        
+        private int _adCountdown = 3;
+        private bool _isAdShowing;
+        private Coroutine _checkTimerCoroutine;
+        private Coroutine _adShowCoroutine;
+        private Coroutine _backupTimerCoroutine;
+        public bool Active { get; private set; }
+        public bool Blocked { get; set; }
         private void Start()
         {
-            if (secondsPanelObject)
-                secondsPanelObject.SetActive(false);
-
-            StartCoroutine(CheckTimerAd());
+            secondsPanelObject.SetActive(false);
+            StartCheckTimerCoroutine();
         }
 
         private void OnEnable()
         {
-            GBGames.InterstitialClosedCallback += OnInterstitialClosedCallback;
-            GBGames.InterstitialOpenedCallback += OnInterstitialOpenedCallback;
-            GBGames.InterstitialFailedCallback += OnInterstitialFailedCallback;
+            GBGames.InterstitialClosedCallback += OnInterstitialClosed;
+            GBGames.InterstitialOpenedCallback += OnInterstitialOpened;
+            GBGames.InterstitialFailedCallback += OnInterstitialFailed;
         }
 
-        
-        
         private void OnDisable()
         {
-            GBGames.InterstitialClosedCallback -= OnInterstitialClosedCallback;
-            GBGames.InterstitialOpenedCallback -= OnInterstitialOpenedCallback;
-            GBGames.InterstitialFailedCallback -= OnInterstitialFailedCallback;
-        }
-        
-        private void OnInterstitialFailedCallback()
-        {
-            _objSecCounter = 0;
-            UIManager.Instance.Active = false;
-            secondsPanelObject.SetActive(false);
-            StopAllCoroutines();
-            StartCoroutine(CheckTimerAd());
-        }
-        private void OnInterstitialOpenedCallback()
-        {
-            secondsPanelObject.SetActive(false);
-        }
-        
-        private void OnInterstitialClosedCallback()
-        {
-            PauseController.Pause(false);
-            _objSecCounter = 0;
-            UIManager.Instance.Active = false;
-
-            secondsPanelObject.SetActive(false);
+            GBGames.InterstitialClosedCallback -= OnInterstitialClosed;
+            GBGames.InterstitialOpenedCallback -= OnInterstitialOpened;
+            GBGames.InterstitialFailedCallback -= OnInterstitialFailed;
             
             StopAllCoroutines();
-            StartCoroutine(CheckTimerAd());
         }
 
-        private IEnumerator CheckTimerAd()
+        private void OnInterstitialFailed()
         {
-            var process = true;
+            ResetTimer();
+            StartBackupTimerCoroutine();
+        }
+
+        private void OnInterstitialOpened()
+        {
+            secondsPanelObject.SetActive(false);
+            _isAdShowing = true;
+
+            if (_backupTimerCoroutine == null) return;
+            
+            StopCoroutine(_backupTimerCoroutine);
+            _backupTimerCoroutine = null;
+        }
+
+        private void OnInterstitialClosed()
+        {
+            ResetTimer();
+            _isAdShowing = false;
+            StartCheckTimerCoroutine();
+        }
+
+        private void ResetTimer()
+        {
+            _adCountdown = 0;
+            Active = false;
+            secondsPanelObject.SetActive(false);
+            PauseController.Pause(false);
+        }
+
+        private void StartCheckTimerCoroutine()
+        {
+            if (_checkTimerCoroutine != null)
+            {
+                StopCoroutine(_checkTimerCoroutine);
+            }
+            _checkTimerCoroutine = StartCoroutine(CheckTimerCoroutine());
+        }
+
+        private IEnumerator CheckTimerCoroutine()
+        {
             yield return new WaitForSeconds(RemoteConfiguration.InterstitialTimer);
 
-            while (process)
-            {
-                if (!GBGames.NowAdsShow)
-                {
-                    process = false;
-                    _objSecCounter = 3;
-
-                    if (secondsPanelObject)
-                        secondsPanelObject.SetActive(true);
-
-                    UIManager.Instance.Active = true;
-                    StartCoroutine(TimerAdShow());
-                }
-
-                yield return new WaitForSeconds(1);
-            }
+            yield return new WaitUntil(CanShow);
+            
+            _adCountdown = 3;
+            secondsPanelObject.SetActive(true);
+            Active = true;
+            _adShowCoroutine = StartCoroutine(AdShowCoroutine());
         }
 
-        private IEnumerator TimerAdShow()
+        private bool CanShow()
         {
-            var process = true;
-            while (process)
+            return !GBGames.NowAdsShow && !Blocked;
+        }
+        
+        private IEnumerator AdShowCoroutine()
+        {
+            while (_adCountdown > 0)
             {
-                if (_objSecCounter > 0)
-                {
-                    SetText(_objSecCounter);
-                    _objSecCounter--;
-
-                    yield return new WaitForSeconds(1.0f);
-                }
-
-                if (_objSecCounter > 0) continue;
-
-                process = false;
-                StopAllCoroutines();
-                StartCoroutine(BackupTimerClosure());
-                GBGames.ShowInterstitial();
+                UpdateLocalizedText(_adCountdown);
+                _adCountdown--;
+                yield return new WaitForSeconds(1.0f);
             }
+
+            StartBackupTimerCoroutine();
+            GBGames.ShowInterstitial();
         }
 
+        private void StartBackupTimerCoroutine()
+        {
+            if (_backupTimerCoroutine != null)
+            {
+                StopCoroutine(_backupTimerCoroutine);
+            }
+            _backupTimerCoroutine = StartCoroutine(BackupTimerCoroutine());
+        }
 
-        private IEnumerator BackupTimerClosure()
+        private IEnumerator BackupTimerCoroutine()
         {
             yield return new WaitForSeconds(5f);
-            PauseController.Pause(false);
 
-            secondsPanelObject.SetActive(false);
-            _objSecCounter = 3;
-            UIManager.Instance.Active = false;
-            
-            StopAllCoroutines();
-            StartCoroutine(CheckTimerAd());
+            if (_isAdShowing) yield break;
+            ResetTimer();
+            StartCheckTimerCoroutine();
         }
 
-        private void SetText(int value)
+        private void UpdateLocalizedText(int value)
         {
-            var stringReference = text.StringReference;
-            if (stringReference["value"] is IntVariable variables) variables.Value = value;
+            var stringReference = localizedText.StringReference;
+            if (stringReference["value"] is IntVariable variable)
+            {
+                variable.Value = value;
+            }
 
-            text.RefreshString();
+            localizedText.RefreshString();
         }
     }
 }

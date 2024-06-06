@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: pet_plant_1
   prefab: {fileID: 6655490791068461561, guid: 8e37423591a6d2940930013a8fdc9908, type: 3}
-  currencyType: 2
+  currencyType: 0
   booster: 3
   icon: {fileID: 21300000, guid: 7c6d1e18b6146e948a0a8cb456d70802, type: 3}
   rarity: 1

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: pet_eagle_2
   prefab: {fileID: 2502973840201725168, guid: 0805074108b40c947a420d6c0e45f583, type: 3}
-  currencyType: 2
+  currencyType: 0
   booster: 3
   icon: {fileID: 21300000, guid: 49f916ffd158890439708dcc333f640a, type: 3}
   rarity: 1

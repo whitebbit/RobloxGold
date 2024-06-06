@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using _3._Scripts.Ads;
 using _3._Scripts.Boosters;
 using _3._Scripts.Config;
 using _3._Scripts.Detectors;
@@ -43,6 +44,7 @@ namespace _3._Scripts.Player
 
         private void Update()
         {
+            if (InterstitialsTimer.Instance.Active) return;
             if ((_input.GetAction() || BoostersHandler.Instance.UseAutoClicker) &&
                 !UIManager.Instance.Active) DoAction();
             Cooldown();
@@ -83,7 +85,8 @@ namespace _3._Scripts.Player
 
         private float GetCooldown()
         {
-            var first = Configuration.Instance.AllUpgrades.FirstOrDefault(u => GBGames.saves.upgradeSaves.IsCurrent(u.ID));
+            var first = Configuration.Instance.AllUpgrades.FirstOrDefault(u =>
+                GBGames.saves.upgradeSaves.IsCurrent(u.ID));
 
             var booster = first == null ? 1 : first.Booster;
             return Mathf.Clamp(baseCooldownTime * booster, 0.25f, 10);

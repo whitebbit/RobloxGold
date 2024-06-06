@@ -2,37 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9715e77-c2c6-406d-832c-48bf516b4ade" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobloxGold/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Visual/Charaters/Catnap/Handle1_diff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Visual/Charaters/Catnap/Handle1_diff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Visual/Charaters/Deadpool/Handle1_diff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Visual/Charaters/Deadpool/Handle1_diff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Visual/Charaters/Hagi/Handle1_diff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Visual/Charaters/Hagi/Handle1_diff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Visual/Charaters/Spiderman/Handle1_diff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Visual/Charaters/Spiderman/Handle1_diff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Visual/Charaters/ZORO/Handle1_diff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Visual/Charaters/ZORO/Handle1_diff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Visual/Charaters/dogday/Handle1_diff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Visual/Charaters/dogday/Handle1_diff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Visual/Charaters/freddybear/Handle1_diff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Visual/Charaters/freddybear/Handle1_diff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Visual/Charaters/pomni/Handle1_diff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Visual/Charaters/pomni/Handle1_diff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Visual/Sprites/Characters/character_deadpool.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Visual/Sprites/Characters/character_deadpool.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Visual/Sprites/Characters/character_spiderman.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Visual/Sprites/Characters/character_spiderman.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Visual/Sprites/en.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Visual/Sprites/en.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Visual/fonovaya-muzyika-dlya-detskoy-igrovoy-komnatyi-979.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Visual/fonovaya-muzyika-dlya-detskoy-igrovoy-komnatyi-979.mp3.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Ads/InterstitialsTimer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Ads/InterstitialsTimer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Debugger/Debugger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Debugger/Debugger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Environment/StageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Environment/StageController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Loader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Loader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerAction.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Sounds/SoundControllersButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Sounds/SoundControllersButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/UI/UIElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/UI/UIElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3. Scripts/Timer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3. Scripts/Timer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/5. Scenes/Loader.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/5. Scenes/Loader.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/5. Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/5. Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Characters/Legendary/5.character_freddy.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Characters/Legendary/5.character_freddy.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Upgrades/upgrade_1 9.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Upgrades/upgrade_1 9.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/5. Scenes/Screen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/5. Scenes/Screen.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Localization/Localization Shared Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Localization/Localization Shared Data.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Localization/Localization_en.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Localization/Localization_en.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Localization/Localization_ru.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Localization/Localization_ru.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_4.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_5.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Bee/Bee_6.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/CatMushroom/CatMushroom_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/CatMushroom/CatMushroom_1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/CatMushroom/CatMushroom_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/CatMushroom/CatMushroom_2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/CatMushroom/CatMushroom_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/CatMushroom/CatMushroom_3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle 1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle 2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle 3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle 3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle 4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle 4.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle 5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle 5.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Eagle/Eagle.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/MadNun/MadNun 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/MadNun/MadNun 1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/MadNun/MadNun 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/MadNun/MadNun 2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/MadNun/MadNun.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/MadNun/MadNun.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant 1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant 2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant 3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant 3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant 4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant 4.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant 5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant 5.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6. Settings/Pets/Plant/Plant.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/GBGamesSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/GBGamesSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/Scripts/Utils/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/Scripts/Utils/SceneLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +49,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.19/Runtime/ResourceManager/AsyncOperations/AsyncOperationHandle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../RobloxSword/Assets/3. Scripts/Ads/InterstitialsTimer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Stick Guys_2/Assets/YandexGame/ScriptsYG/TimerBeforeAdsYG.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Stick Guys_2/Assets/PanicSwitch/Scripts/Loader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../RobloxSword/Assets/3. Scripts/Loader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.19/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../RobloxSword/Assets/3. Scripts/Timer.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Boosters/BoosterStateButton.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Boosters/BoostersHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/Enums/PortalType.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/ObjectButton.cs" />
@@ -65,7 +84,6 @@
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Effects/CurrencyCounterEffect.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Panels/UpgradesShop.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Scriptable/Shop/ShopItem.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerAction.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/Portal.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Config/RemoteConfigValue.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Config/RemoteConfig.cs" />
@@ -91,14 +109,16 @@
       <option value="$PROJECT_DIR$/Assets/3. Scripts/WebGLSaver.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Interactive/GoldInteractive.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/Elements/PetBooster.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerMovement.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Ads/InterstitialsTimer.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/UI/UIElement.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Sounds/SoundControllersButton.cs" />
       <option value="$PROJECT_DIR$/Assets/Y. Imported Assets/GBGamesPlugin/Scripts/Utils/SceneLoader.cs" />
-      <option value="$PROJECT_DIR$/Assets/3. Scripts/Loader.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Environment/StageController.cs" />
       <option value="$PROJECT_DIR$/Assets/3. Scripts/Debugger/Debugger.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Timer.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Ads/InterstitialsTimer.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Player/PlayerAction.cs" />
+      <option value="$PROJECT_DIR$/Assets/3. Scripts/Loader.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2goPp64ixzxJjJZjmiAsQUXExkm" />
@@ -163,7 +183,16 @@
       <workItem from="1716994609038" duration="934000" />
       <workItem from="1717080894333" duration="2783000" />
       <workItem from="1717164179846" duration="804000" />
-      <workItem from="1717233002422" duration="2206000" />
+      <workItem from="1717233002422" duration="2210000" />
+      <workItem from="1717270950923" duration="2558000" />
+      <workItem from="1717355468982" duration="2460000" />
+      <workItem from="1717421561028" duration="1930000" />
+      <workItem from="1717589395943" duration="3598000" />
+      <workItem from="1717619600440" duration="6840000" />
+      <workItem from="1717662995200" duration="5984000" />
+      <workItem from="1717685245336" duration="760000" />
+      <workItem from="1717688769364" duration="15000" />
+      <workItem from="1717694578953" duration="878000" />
     </task>
     <servers />
   </component>
